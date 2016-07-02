@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Kumar+One+Outline|Space+Mono|Alegreya+Sans+SC:100';
+
+#day3{
+	background-color: #657480;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		.col-sm-12{
+			padding:0;
+		}
+
+		div{
+			
+			text-align: center;
+
+			p:nth-of-type(1){
+				font-family: 'Alegreya Sans SC';
+				font-size: 12vmin; 
+				color: white;
+				border: 1px dotted #fff;
+				display: inline-block;
+				padding: 15px 50px 15px 50px;
+				transform: skewY(-10deg);
+				margin-bottom: 20px;
+			}
+
+			p:nth-of-type(2){
+				font-family: "Kumar One Outline";
+				font-size: 4vmin;
+				color: #04b8e1;
+				transform: skewY(-10deg);
+				margin-bottom: 12vmin
+				}
+		}
+	}
+
+	.source{
+		a{
+			color: #27a2be;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+
+
+}

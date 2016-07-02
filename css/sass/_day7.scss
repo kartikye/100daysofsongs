@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch';
+
+#day7{
+	background-color: #333;
+	background-image: url('../images/stardust_@2X.png');
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			p{
+
+				font-size: 5vmin;
+				margin-bottom: 0;
+				margin-top: 0;
+
+				font-family: "Amatic SC";
+
+				&:nth-of-type(1){
+					color: #0ccefd;
+				}
+
+				&:nth-of-type(2){
+					color: #28b4eb;
+				}
+
+				&:nth-of-type(3){
+					color: #36a7e2;
+				}
+
+				&:nth-of-type(4){
+					color: #528ed0;
+				}
+
+				&:nth-of-type(5){
+					color: #6f74bd;
+				}
+
+				&:nth-of-type(6){
+					color: #7d67b4;
+				}
+
+				&:nth-of-type(7){
+					color: #994ea2;
+				}
+
+				&:nth-of-type(8){
+					color: #b53490;
+				}
+			}
+		}
+	}
+
+	.highlighted{
+		font-family: "Cabin Sketch";
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: #b53490;
+			}
+		}
+	}
+
+
+}

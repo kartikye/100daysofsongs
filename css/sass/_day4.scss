@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Poiret+One';
+
+#day4{
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	background-color: #b20000;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			text-align: center;
+			position: relative;
+
+			.percent{
+				color: #ff5050;
+			}
+
+			.vertical{
+				font-size: 4vmin;
+				transform: rotate(-90deg);
+				display: inline-block;
+				text-align: left;
+				margin-top: 10vh;
+				margin-bottom: 10vh;
+
+				p{
+					font-family: 'Bungee';
+					font-size: 4vmin;
+					margin-top: 20px;
+					margin-bottom: 20px;
+				}
+			}
+
+			.small{
+				color: white;
+				font-size: 1.5vw;
+			}
+
+			p{
+				font-family: 'Bungee Shade';
+				font-size: 5vw;
+				margin-top: 1vw;
+			}
+
+		}
+	}
+
+
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+
+
+}

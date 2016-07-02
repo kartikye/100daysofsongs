@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Just+Another+Hand|Shadows+Into+Light+Two';
+
+#day1{
+	background-color: #187598;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			text-align: center;
+
+			p{
+				color: white;
+				font-size: 25px;
+
+				&:nth-of-type(odd){
+					font-family: "Shadows Into Light Two";
+				}
+				&:nth-of-type(even){
+					font-family: "Just Another Hand";
+					font-size: 40px;
+					margin-bottom: 0;
+					margin-top: 0;
+				}
+			}
+
+			.highlighted{
+				color: #981835;
+			}
+		}
+	}
+
+
+	.source{
+		a{
+			color: #1db6ba;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+@import 'https://fonts.googleapis.com/css?family=Fredericka+the+Great|Wire+One';
+
+#day6{
+	background-color: white;
+
+	.number{
+		color: #333;
+		border-color: #333;
+		margin-top: 100px;
+	}
+
+	.content{
+
+		div{
+
+			.large{
+				font-size: 40vmin;
+				font-family: "Fredericka the Great";
+			}
+
+			p{
+
+				margin-top: 0;
+				margin-bottom: 0;
+
+				&:nth-of-type(3){
+					text-align: right;
+					font-family: "Wire One";
+					font-size: 10vmin;
+					color: #d0d0d0;
+				}
+
+				&:nth-of-type(2){
+					margin-top: -20vmin;
+				}
+			}
+
+		}
+	}
+
+	.source{
+		margin-bottom: 100px;
+		a{
+			color: #333;
+			text-decoration: underline;
+
+			&:hover{
+				color: #111;
+			}
+		}
+	}
+
+
+}

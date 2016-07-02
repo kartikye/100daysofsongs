@@ -1,0 +1,43 @@
+//bootstrap
+@import 'bootstrap';
+
+//fonts
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+
+@import 'introduction';
+
+//days
+@import 'day1';
+@import 'day2';
+@import 'day3';
+@import 'day4';
+@import 'day5';
+@import 'day6';
+@import 'day7';
+
+section{
+	min-height: 100%;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+
+  	.number{
+  		margin: 0 auto;
+  		border: 2px solid black;
+  		padding: 3px 8px 3px 8px;
+  		font-family: 'Oswald', sans-serif;
+  		font-size: 15px;
+  	}
+
+  	.row{
+  		margin-top: 30px;
+  	}
+
+  	.source{
+  		text-align: center;
+
+  		font-family: 'Oswald';
+  	}
+}
+

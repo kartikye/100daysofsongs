@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Hairline|Give+You+Glory';
+
+#day2{
+	background-color: #ceb3a8;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			text-align: center;
+
+			#background{
+				
+				position: absolute;
+				width: 100%;
+				top: 0; left: 0; bottom: 0; right: 0;
+
+				display: flex;
+			  	flex-direction: column;
+			  	justify-content: center;
+
+
+				p{
+					font-family: "Give You Glory";
+					font-size: 4vmin;
+					margin: 0;
+				}
+
+				.mb{
+					margin-bottom: 15%;
+				}
+			}
+
+			#foreground{
+				color: #a87968;
+				font-size: 25vmin;
+
+				p{
+					font-family: "Bungee Hairline";
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+			}
+
+			.highlighted{
+				color: #ae7c85;
+			}
+		}
+	}
+
+	.source{
+		a{
+			color: #a87968;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+}

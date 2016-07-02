@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Bitter:400i|Playfair+Display:400i|Arapey';
+
+#day5{
+	background-color: #4a4a4a;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			text-align: center;
+			background-color: white;
+
+			width: 50%;
+			height: 50vh;
+			margin-left: 25%;
+			transform: rotateZ(-10deg);
+			margin-top: 50px;
+			margin-bottom: 50px;
+
+			overflow: hidden;	
+
+			h1{
+				font-family: "Playfair Display SC";
+				font-size: 7vmin;
+				margin-bottom: 2vmin;
+			}
+
+			hr{
+				border: 1px solid black;
+					margin-top: 0;
+					margin-bottom: 0;
+			}
+
+			p{
+				&:nth-of-type(1){
+					margin: 0;
+					padding: 0;
+					font-family: 'Bitter';
+				}
+
+				&:nth-of-type(2){
+					font-family: "Playfair Display";
+					width: 40%;
+					margin-left: 5%;
+					padding-right: 4%;
+					display: inline-block;
+					text-transform: capitalize;
+					font-size: 3vmin;
+					text-align: left;
+					height: 100%;
+					border-right:3px solid black;
+					vertical-align: top;
+				}
+
+				&:nth-of-type(3){
+					font-family: "Arapey";
+					width: 40%;
+					margin-right: 4%;
+					margin-left: 5%;
+					display: inline-block;
+					text-align: left;
+					text-transform: uppercase;
+					font-size: 3vmin;
+					vertical-align: top;
+				}
+
+
+			}
+		}
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+
+
+}

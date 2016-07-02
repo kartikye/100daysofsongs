@@ -1,0 +1,13 @@
+@import "https://fonts.googleapis.com/css?family=";
+#day1 {
+  background-color: white; }
+  #day1 .number {
+    color: white;
+    border-color: white; }
+  #day1 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day1 .source a:hover {
+      color: white; }
+
+/*# sourceMappingURL=template.css.map */

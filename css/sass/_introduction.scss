@@ -25,6 +25,13 @@
 				color: white;
 				font-family: 'Scope One';
 				font-size: 20px;
+
+				a{
+					color: #af58b2;
+					&:hover{
+						color: white;
+					} 
+				}
 			}
 
 			h4{

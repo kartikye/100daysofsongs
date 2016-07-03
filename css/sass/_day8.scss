@@ -1,0 +1,84 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Lay By Me - Firekid                                                 //
+//  03-07-2016                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Slab|Scope+One';
+
+#day8{
+	background-color: #e7541f;
+	position: relative;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			z-index: 9999;
+			text-align: center;
+			font-family: "Scope One";
+			font-size: 10vmin;
+			
+			&:nth-of-type(1){
+			}
+
+			&:nth-of-type(2){
+				p{
+					font-family: "Josefin Slab";
+				}
+			}
+
+			p{
+				&:nth-of-type(2){
+					font-size: 8vmin;
+				}
+
+				&:nth-of-type(3){
+					font-size: 6vmin;
+				}
+
+				&:nth-of-type(4){
+					font-size: 4vmin;
+				}
+			}
+		}
+	}
+
+	.background{
+		width: 100%;
+		position: absolute;
+		top:0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+
+		display: flex;
+	  	flex-direction: column;
+	  	justify-content: center;
+
+	  	text-align: center;
+
+	  	z-index: 0;
+
+	  	p{
+	  		font-size: 24vmin;
+	  		color: #d64917;
+	  		font-family: "Abril Fatface";
+	  	}
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+
+
+}

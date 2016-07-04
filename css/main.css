@@ -23,6 +23,13 @@
 @import "https://fonts.googleapis.com/css?family=Fredericka+the+Great|Wire+One";
 @import "https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch";
 @import "https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Slab|Scope+One";
+@import "https://fonts.googleapis.com/css?family=Limelight|Pacifico|Codystar";
+@import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1272,6 +1279,120 @@ hr {
     color: white;
     text-decoration: underline; }
     #day8 .source a:hover {
+      color: white; }
+
+#day9 {
+  background-image: url("../images/blackorchid.png");
+  position: relative; }
+  #day9 .number {
+    color: white;
+    border-color: white;
+    z-index: 1000; }
+  #day9 .content {
+    z-index: 1000;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    #day9 .content div {
+      text-align: center;
+      color: white; }
+      #day9 .content div p {
+        margin-top: 0;
+        margin-bottom: 0; }
+        #day9 .content div p:nth-of-type(odd) {
+          font-family: "Codystar";
+          font-size: 4vmin; }
+        #day9 .content div p:nth-of-type(even) {
+          font-size: 10vmin;
+          font-family: "Limelight";
+          text-transform: lowercase; }
+  #day9 .background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 0; }
+    #day9 .background img {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 50vmin;
+      height: auto; }
+  #day9 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day9 .source a:hover {
+      color: white; }
+
+#day10 {
+  background-color: white; }
+  #day10 .number {
+    color: white;
+    border-color: white; }
+  #day10 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day10 .source a:hover {
+      color: white; }
+
+#day11 {
+  background-color: white; }
+  #day11 .number {
+    color: white;
+    border-color: white; }
+  #day11 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day11 .source a:hover {
+      color: white; }
+
+#day12 {
+  background-color: white; }
+  #day12 .number {
+    color: white;
+    border-color: white; }
+  #day12 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day12 .source a:hover {
+      color: white; }
+
+#day13 {
+  background-color: white; }
+  #day13 .number {
+    color: white;
+    border-color: white; }
+  #day13 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day13 .source a:hover {
+      color: white; }
+
+#day14 {
+  background-color: white; }
+  #day14 .number {
+    color: white;
+    border-color: white; }
+  #day14 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day14 .source a:hover {
+      color: white; }
+
+#day15 {
+  background-color: white; }
+  #day15 .number {
+    color: white;
+    border-color: white; }
+  #day15 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day15 .source a:hover {
       color: white; }
 
 section {

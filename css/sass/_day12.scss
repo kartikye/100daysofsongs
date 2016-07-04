@@ -1,0 +1,35 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Song Name - Artist                                                  //
+//  00-07-2016                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+@import 'https://fonts.googleapis.com/css?family=';
+
+#day12{
+	background-color: white;
+
+	.number{
+		color: white;
+		border-color: white;
+	}
+
+	.content{
+		div{
+
+
+		}
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+
+
+}

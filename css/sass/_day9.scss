@@ -1,0 +1,84 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Song Name - Artist                                                  //
+//  00-07-2016                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+@import 'https://fonts.googleapis.com/css?family=Limelight|Pacifico|Codystar';
+
+#day9{
+	//background-color: #003700;
+	background-image: url("../images/blackorchid.png");	
+	position: relative;
+
+	.number{
+		color: white;
+		border-color: white;
+		z-index: 1000;
+	}
+
+	.content{
+		z-index: 1000;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		
+		div{
+			text-align: center;
+
+			color:white;
+			
+			p{
+				margin-top: 0;
+				margin-bottom: 0;
+
+				&:nth-of-type(odd){
+					font-family: "Codystar";
+					font-size: 4vmin;
+				}
+
+				&:nth-of-type(even){
+					font-size: 10vmin;
+					font-family: "Limelight";
+					text-transform: lowercase;
+				}
+			}
+
+		}
+	}
+
+	.background{
+		width: 100%;
+		position: absolute;
+		top:0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+
+	  	text-align: center;
+
+	  	z-index: 0;
+
+	  	img{
+	  		position: absolute;
+			margin: auto;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    width: 50vmin;
+		    height: auto;
+	  	}
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+
+
+}

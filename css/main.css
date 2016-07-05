@@ -29,7 +29,6 @@
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=";
-@import "https://fonts.googleapis.com/css?family=";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1330,10 +1329,19 @@ hr {
       color: white; }
 
 #day10 {
-  background-color: white; }
+  background-image: url("../images/hab.jpg");
+  background-size: cover;
+  background-position: 75% 100%; }
   #day10 .number {
     color: white;
     border-color: white; }
+  #day10 .content div img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  #day10 .content .col-sm-2 p {
+    width: 100%; }
   #day10 .source a {
     color: white;
     text-decoration: underline; }
@@ -1351,15 +1359,15 @@ hr {
     #day11 .source a:hover {
       color: white; }
 
-#day12 {
+#day10 {
   background-color: white; }
-  #day12 .number {
+  #day10 .number {
     color: white;
     border-color: white; }
-  #day12 .source a {
+  #day10 .source a {
     color: white;
     text-decoration: underline; }
-    #day12 .source a:hover {
+    #day10 .source a:hover {
       color: white; }
 
 #day13 {

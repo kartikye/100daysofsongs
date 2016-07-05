@@ -24,6 +24,13 @@
 @import 'day14';
 @import 'day15';
 
+.topbar{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 9999;
+}
+
 section{
 	min-height: 110%;
 	padding-top: 5%;

@@ -24,7 +24,7 @@
 @import "https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch";
 @import "https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Slab|Scope+One";
 @import "https://fonts.googleapis.com/css?family=Limelight|Pacifico|Codystar";
-@import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Galada";
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=";
@@ -1331,7 +1331,7 @@ hr {
 #day10 {
   background-image: url("../images/hab.jpg");
   background-size: cover;
-  background-position: 75% 100%; }
+  background-position: center; }
   #day10 .number {
     color: white;
     border-color: white; }
@@ -1349,10 +1349,49 @@ hr {
       color: white; }
 
 #day11 {
-  background-color: white; }
+  background-color: white;
+  background-image: url("../images/stardust_@2X.png");
+  position: relative; }
+  #day11 #earth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/earth.png") 50% 0 no-repeat fixed;
+    background-size: 200px 400px;
+    background-position: 50% 25%; }
+  #day11 #mars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/mars.png") 50% 0 no-repeat fixed;
+    background-size: 200px 1140px;
+    background-position: 50% 25%;
+    display: none; }
+  #day11 #astronaut {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/astronaut.png") 50% 0 no-repeat fixed;
+    background-size: 200px 916px;
+    background-position: 50% 25%; }
   #day11 .number {
     color: white;
-    border-color: white; }
+    border-color: white;
+    z-index: 400; }
+  #day11 .content div p {
+    text-align: center;
+    font-size: 5vmin;
+    color: white; }
+    #day11 .content div p:nth-of-type(odd) {
+      font-family: "Galada"; }
+    #day11 .content div p:nth-of-type(even) {
+      font-family: "Covered By Your Grace"; }
   #day11 .source a {
     color: white;
     text-decoration: underline; }
@@ -1402,6 +1441,12 @@ hr {
     text-decoration: underline; }
     #day15 .source a:hover {
       color: white; }
+
+.topbar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999; }
 
 section {
   min-height: 110%;

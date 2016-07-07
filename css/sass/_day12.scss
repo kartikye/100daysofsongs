@@ -5,8 +5,9 @@
 
 @import 'https://fonts.googleapis.com/css?family=';
 
-#day10{
-	background-color: white;
+#day12{
+	background: url("../images/dontletmedownbg.png") center repeat-x;
+    background-size: auto 100%;
 
 	.number{
 		color: white;
@@ -15,8 +16,12 @@
 
 	.content{
 		div{
-
-
+			img{
+				width: 100%;
+				height: auto;
+				margin-top: 100px;
+				margin-bottom: 100px;
+			}
 		}
 	}
 

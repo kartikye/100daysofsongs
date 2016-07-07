@@ -1385,6 +1385,7 @@ hr {
     border-color: white;
     z-index: 400; }
   #day11 .content div p {
+    color: #bac;
     text-align: center;
     font-size: 5vmin;
     color: white; }
@@ -1398,15 +1399,21 @@ hr {
     #day11 .source a:hover {
       color: white; }
 
-#day10 {
-  background-color: white; }
-  #day10 .number {
+#day12 {
+  background: url("../images/dontletmedownbg.png") center repeat-x;
+  background-size: auto 100%; }
+  #day12 .number {
     color: white;
     border-color: white; }
-  #day10 .source a {
+  #day12 .content div img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  #day12 .source a {
     color: white;
     text-decoration: underline; }
-    #day10 .source a:hover {
+    #day12 .source a:hover {
       color: white; }
 
 #day13 {
@@ -1444,9 +1451,21 @@ hr {
 
 .topbar {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 9999; }
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  line-height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  font-family: "Oswald"; }
+  .topbar div a {
+    color: #b1578e; }
+  .topbar div:nth-of-type(2) {
+    text-align: center; }
+  .topbar div:nth-of-type(3) a {
+    float: right; }
 
 section {
   min-height: 110%;

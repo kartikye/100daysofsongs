@@ -49,8 +49,8 @@
 	}
 
 	.number{
-		color: white;
-		border-color: white;
+		color: #bac;
+		border-color: #bac;
 		z-index: 400;
 	}
 
@@ -60,7 +60,6 @@
 				color: #bac;
 				text-align: center;
 				font-size: 5vmin;
-				color: white;
 
 				&:nth-of-type(odd){
 					font-family: "Galada";
@@ -75,7 +74,7 @@
 
 	.source{
 		a{
-			color: white;
+			color: #bac;
 			text-decoration: underline;
 
 			&:hover{

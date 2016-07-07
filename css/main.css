@@ -1208,8 +1208,8 @@ hr {
   background-color: #333;
   background-image: url("../images/stardust_@2X.png"); }
   #day7 .number {
-    color: white;
-    border-color: white; }
+    color: #0ce2fd;
+    border-color: #0ce2fd; }
   #day7 .content div p {
     font-size: 5vmin;
     margin-bottom: 0;
@@ -1234,7 +1234,7 @@ hr {
   #day7 .highlighted {
     font-family: "Cabin Sketch"; }
   #day7 .source a {
-    color: white;
+    color: #b53470;
     text-decoration: underline; }
     #day7 .source a:hover {
       color: #b53490; }
@@ -1246,7 +1246,7 @@ hr {
     color: white;
     border-color: white; }
   #day8 .content div {
-    z-index: 9999;
+    z-index: 9800;
     text-align: center;
     font-family: "Scope One";
     font-size: 10vmin; }
@@ -1381,20 +1381,19 @@ hr {
     background-size: 200px 916px;
     background-position: 50% 25%; }
   #day11 .number {
-    color: white;
-    border-color: white;
+    color: #bac;
+    border-color: #bac;
     z-index: 400; }
   #day11 .content div p {
     color: #bac;
     text-align: center;
-    font-size: 5vmin;
-    color: white; }
+    font-size: 5vmin; }
     #day11 .content div p:nth-of-type(odd) {
       font-family: "Galada"; }
     #day11 .content div p:nth-of-type(even) {
       font-family: "Covered By Your Grace"; }
   #day11 .source a {
-    color: white;
+    color: #bac;
     text-decoration: underline; }
     #day11 .source a:hover {
       color: white; }

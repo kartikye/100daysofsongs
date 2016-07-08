@@ -1444,7 +1444,8 @@ hr {
     top: 0;
     left: 0;
     z-index: 5000;
-    background-image: url("../images/daylightwave2.png"); }
+    background-image: url("../images/daylightwave2.png");
+    background-size: cover; }
   #day13 #wave3 {
     position: absolute;
     width: 100%;
@@ -1452,7 +1453,8 @@ hr {
     top: 0;
     left: 0;
     z-index: 6000;
-    background-image: url("../images/daylightwave3.png"); }
+    background-image: url("../images/daylightwave3.png");
+    background-size: cover; }
   #day13 .number {
     color: white;
     border-color: white;

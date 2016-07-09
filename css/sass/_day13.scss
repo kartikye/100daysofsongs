@@ -1,13 +1,13 @@
 //////////////////////////////////////////////////////////////////////////
-// 	Song Name - Artist                                                  //
-//  00-07-2016                                                          //
+// 	Daylight - Maroon 5                                                 //
+//  08-07-2016                                                          //
 //////////////////////////////////////////////////////////////////////////
 
 @import 'https://fonts.googleapis.com/css?family=';
 
 #day13{
-	background-image: url('../images/daylightbackground.png');
-	background-size: cover;
+	background: url('../images/daylightbackground.png') center repeat-x;
+	background-size: auto 100%;
 	position: relative;
 
 	#sun{
@@ -32,8 +32,8 @@
 
 		z-index: 4000;
 
-		background-image: url('../images/daylightwave1.png');
-		background-size: cover;
+		background: url('../images/daylightwave1.png') center repeat-x;
+		background-size: auto 100%;
 	}
 
 	#wave2{
@@ -45,7 +45,7 @@
 
 		z-index: 5000;
 
-		background-image: url('../images/daylightwave2.png');
+		//background-image: url('../images/daylightwave2.png');
 		background-size: cover;
 	}
 
@@ -58,7 +58,7 @@
 
 		z-index: 6000;
 
-		background-image: url('../images/daylightwave3.png');
+		//background-image: url('../images/daylightwave3.png');
 		background-size: cover;
 	}
 

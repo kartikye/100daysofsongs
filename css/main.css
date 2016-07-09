@@ -1416,8 +1416,8 @@ hr {
       color: white; }
 
 #day13 {
-  background-image: url("../images/daylightbackground.png");
-  background-size: cover;
+  background: url("../images/daylightbackground.png") center repeat-x;
+  background-size: auto 100%;
   position: relative; }
   #day13 #sun {
     position: absolute;
@@ -1435,8 +1435,8 @@ hr {
     top: 0;
     left: 0;
     z-index: 4000;
-    background-image: url("../images/daylightwave1.png");
-    background-size: cover; }
+    background: url("../images/daylightwave1.png") center repeat-x;
+    background-size: auto 100%; }
   #day13 #wave2 {
     position: absolute;
     width: 100%;
@@ -1444,7 +1444,6 @@ hr {
     top: 0;
     left: 0;
     z-index: 5000;
-    background-image: url("../images/daylightwave2.png");
     background-size: cover; }
   #day13 #wave3 {
     position: absolute;
@@ -1453,7 +1452,6 @@ hr {
     top: 0;
     left: 0;
     z-index: 6000;
-    background-image: url("../images/daylightwave3.png");
     background-size: cover; }
   #day13 .number {
     color: white;

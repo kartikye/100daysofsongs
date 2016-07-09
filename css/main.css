@@ -1469,10 +1469,17 @@ hr {
         color: white; }
 
 #day14 {
-  background-color: white; }
+  background-image: url("../images/seeyouagainbg.png");
+  background-size: cover;
+  background-position: center; }
   #day14 .number {
     color: white;
     border-color: white; }
+  #day14 .content div img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; }
   #day14 .source a {
     color: white;
     text-decoration: underline; }

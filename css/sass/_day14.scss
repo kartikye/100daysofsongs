@@ -6,7 +6,9 @@
 @import 'https://fonts.googleapis.com/css?family=';
 
 #day14{
-	background-color: white;
+	background-image: url("../images/seeyouagainbg.png");
+	background-size: cover;
+	background-position: center;
 
 	.number{
 		color: white;
@@ -15,8 +17,12 @@
 
 	.content{
 		div{
-
-
+			img{
+				width: 100%;
+				height: auto;
+				margin-top: 100px;
+				margin-bottom: 100px;
+			}
 		}
 	}
 

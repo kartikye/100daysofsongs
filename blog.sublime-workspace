@@ -3,6 +3,42 @@
 	{
 		"selected_items":
 		[
+			[
+				"S",
+				"Sans"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"can",
+				"canvas	Tag"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"day",
+				"day14"
+			]
 		]
 	},
 	"buffers":
@@ -11,9 +47,24 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 96,
-				"line_ending": "Windows",
-				"name": "<html>"
+				"buffer_size": 15775,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 1185,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass/_day16.scss",
+			"settings":
+			{
+				"buffer_size": 1181,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -64,8 +115,21 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/D/Documents/Websites/100daysofsongs",
+		"/D/Documents/Websites/100daysofsongs/css",
+		"/D/Documents/Websites/100daysofsongs/css/sass",
+		"/D/Documents/Websites/100daysofsongs/js"
+	],
 	"file_history":
 	[
+		"/D/Documents/Websites/100daysofsongs/css/sass/_day15.scss",
+		"/D/Downloads/sample/index.html",
+		"/D/Downloads/RainEffect/RainEffect/js/index.js",
+		"/D/Documents/Websites/100daysofsongs/js/rainyday.js",
+		"/D/Downloads/RainEffect/RainEffect/index.html",
+		"/D/Documents/20things.txt",
 		"/C/Users/Kartikye/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Kartikye/AppData/Local/Temp/Temp1_python-flask-server-generated (4).zip/python-flask-server/swagger/swagger.yaml",
 		"/D/Downloads/swagger (5).yaml",
@@ -81,7 +145,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -95,10 +159,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"<br>",
+			"</p>",
+			"img",
+			"#container",
+			"img",
+			"#container",
+			"canvas",
+			"container",
+			"canvas",
+			"number",
+			"<h1>",
+			"<h1>\n",
 			"{\n"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -122,27 +199,85 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 96,
+						"buffer_size": 15775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								13758,
+								13758
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<html>",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6174.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sass/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sass/_day16.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								625,
+								625
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -150,11 +285,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 66.0
 	},
 	"layout":
 	{
@@ -187,7 +322,7 @@
 	"project": "100daysofsongs.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":

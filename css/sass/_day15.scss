@@ -3,26 +3,117 @@
 //  00-07-2016                                                          //
 //////////////////////////////////////////////////////////////////////////
 
-@import 'https://fonts.googleapis.com/css?family=';
+@import 'https://fonts.googleapis.com/css?family=Limelight|Scope+One';
 
 #day15{
-	background-color: white;
+		
+	background: url(../images/notebook.png);
+
 
 	.number{
-		color: white;
-		border-color: white;
+		color: #5276bc;
+		border-color: #5276bc;
 	}
 
 	.content{
 		div{
+			.item-number{
+				font-family: "Limelight";
+				font-size: 40px;
 
+				&:nth-of-type(1){
+					color: #3DDDB0;
+				}
+
+				&:nth-of-type(2){
+					color: #41D5B0;
+				}
+				
+				&:nth-of-type(3){
+					color: #46CEB1;
+				}
+				
+				&:nth-of-type(4){
+					color: #4BC7B1;
+				}
+				
+				&:nth-of-type(5){
+					color: #50BFB2;
+				}
+				
+				&:nth-of-type(6){
+					color: #54B8B3;
+				}
+
+				&:nth-of-type(7){
+					color: #59B1B3;
+				}
+
+				&:nth-of-type(8){
+					color: #5EA9B4;
+				}
+
+				&:nth-of-type(9){
+					color: #63A2B5;
+				}
+
+				&:nth-of-type(10){
+					color: #689BB5;
+				}
+
+				&:nth-of-type(11){
+					color: #6C93B6;
+				}
+
+				&:nth-of-type(12){
+					color: #718CB6;
+				}
+
+				&:nth-of-type(13){
+					color: #7685B7;
+				}
+
+				&:nth-of-type(14){
+					color: #7B7DB8;
+				}
+
+				&:nth-of-type(15){
+					color: #8076B8;
+				}
+				
+				&:nth-of-type(16){
+					color: #846FB9;
+				}
+
+				&:nth-of-type(17){
+					color: #8967BA;
+				}
+
+				&:nth-of-type(18){
+					color: #8E60BA;
+				}
+
+				&:nth-of-type(19){
+					color: #9359BB;
+				}
+
+				&:nth-of-type(20){
+					color: #9852BC;
+				}
+
+			}
+
+			p{
+				font-family: "Scope One";
+				font-size: 20px;
+			}
 
 		}
 	}
 
 	.source{
 		a{
-			color: white;
+			color: #5276bc;
 			text-decoration: underline;
 
 			&:hover{

@@ -28,6 +28,7 @@
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=";
+@import "https://fonts.googleapis.com/css?family=Limelight|Scope+One";
 @import "https://fonts.googleapis.com/css?family=Londrina+Sketch|Work+Sans:100";
 html {
   font-family: sans-serif;
@@ -1487,58 +1488,112 @@ hr {
       color: white; }
 
 #day15 {
-  background-color: #78C0A8; }
+  background: url(../images/notebook.png); }
   #day15 .number {
-    color: white;
-    border-color: white; }
-  #day15 .content div {
-    text-align: center;
-    color: white; }
-    #day15 .content div .font1 {
-      font-family: "Work Sans";
-      font-size: 25px;
-      margin: 0; }
-    #day15 .content div .font2 {
-      font-family: "Londrina Sketch";
-      font-size: 40px;
-      margin: 0; }
-      #day15 .content div .font2:nth-of-type(2) {
-        font-size: 45px; }
-      #day15 .content div .font2:nth-of-type(3) {
-        font-size: 50px; }
-      #day15 .content div .font2:nth-of-type(4) {
-        font-size: 60px; }
-      #day15 .content div .font2:nth-of-type(5) {
-        font-size: 75px; }
-      #day15 .content div .font2:nth-of-type(6) {
-        font-size: 80px; }
-    #day15 .content div .koi {
-      font-family: "Londrina Sketch";
-      font-size: 150px;
-      margin: 0; }
+    color: #5276bc;
+    border-color: #5276bc; }
+  #day15 .content div .item-number {
+    font-family: "Limelight";
+    font-size: 40px; }
+    #day15 .content div .item-number:nth-of-type(1) {
+      color: #3DDDB0; }
+    #day15 .content div .item-number:nth-of-type(2) {
+      color: #41D5B0; }
+    #day15 .content div .item-number:nth-of-type(3) {
+      color: #46CEB1; }
+    #day15 .content div .item-number:nth-of-type(4) {
+      color: #4BC7B1; }
+    #day15 .content div .item-number:nth-of-type(5) {
+      color: #50BFB2; }
+    #day15 .content div .item-number:nth-of-type(6) {
+      color: #54B8B3; }
+    #day15 .content div .item-number:nth-of-type(7) {
+      color: #59B1B3; }
+    #day15 .content div .item-number:nth-of-type(8) {
+      color: #5EA9B4; }
+    #day15 .content div .item-number:nth-of-type(9) {
+      color: #63A2B5; }
+    #day15 .content div .item-number:nth-of-type(10) {
+      color: #689BB5; }
+    #day15 .content div .item-number:nth-of-type(11) {
+      color: #6C93B6; }
+    #day15 .content div .item-number:nth-of-type(12) {
+      color: #718CB6; }
+    #day15 .content div .item-number:nth-of-type(13) {
+      color: #7685B7; }
+    #day15 .content div .item-number:nth-of-type(14) {
+      color: #7B7DB8; }
+    #day15 .content div .item-number:nth-of-type(15) {
+      color: #8076B8; }
+    #day15 .content div .item-number:nth-of-type(16) {
+      color: #846FB9; }
+    #day15 .content div .item-number:nth-of-type(17) {
+      color: #8967BA; }
+    #day15 .content div .item-number:nth-of-type(18) {
+      color: #8E60BA; }
+    #day15 .content div .item-number:nth-of-type(19) {
+      color: #9359BB; }
+    #day15 .content div .item-number:nth-of-type(20) {
+      color: #9852BC; }
+  #day15 .content div p {
+    font-family: "Scope One";
+    font-size: 20px; }
   #day15 .source a {
-    color: white;
+    color: #5276bc;
     text-decoration: underline; }
     #day15 .source a:hover {
       color: white; }
 
 #day16 {
-  background-image: url("../images/allthatsleftbg.png");
-  background-size: cover; }
+  background-color: #78C0A8; }
   #day16 .number {
     color: white;
     border-color: white; }
   #day16 .content div {
-    display: flex;
-    justify-content: center; }
-    #day16 .content div img {
-      height: 50vh;
-      margin-top: 50px;
-      margin-bottom: 50px; }
+    text-align: center;
+    color: white; }
+    #day16 .content div .font1 {
+      font-family: "Work Sans";
+      font-size: 25px;
+      margin: 0; }
+    #day16 .content div .font2 {
+      font-family: "Londrina Sketch";
+      font-size: 40px;
+      margin: 0; }
+      #day16 .content div .font2:nth-of-type(2) {
+        font-size: 45px; }
+      #day16 .content div .font2:nth-of-type(3) {
+        font-size: 50px; }
+      #day16 .content div .font2:nth-of-type(4) {
+        font-size: 60px; }
+      #day16 .content div .font2:nth-of-type(5) {
+        font-size: 75px; }
+      #day16 .content div .font2:nth-of-type(6) {
+        font-size: 80px; }
+    #day16 .content div .koi {
+      font-family: "Londrina Sketch";
+      font-size: 150px;
+      margin: 0; }
   #day16 .source a {
     color: white;
     text-decoration: underline; }
     #day16 .source a:hover {
+      color: white; }
+
+#day17 {
+  background-image: url("../images/allthatsleftbg.png"); }
+  #day17 .number {
+    color: white;
+    border-color: white; }
+  #day17 .content div img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  #day17 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day17 .source a:hover {
       color: white; }
 
 .topbar {

@@ -1,63 +1,27 @@
 //////////////////////////////////////////////////////////////////////////
-// 	A love letter to Koi                                                //
-//  23-07-2016                                                          //
+// 	All That's Left - Manila Killa                                      //
+//  07-10-2017                                                          //
 //////////////////////////////////////////////////////////////////////////
 
-@import 'https://fonts.googleapis.com/css?family=Londrina+Sketch|Work+Sans:100';
 
 #day16{
-	background-color: #78C0A8;
+	background-image: url('../images/allthatsleftbg.png');
+	background-size: cover;
 
 	.number{
-		color: white;
+		color: white	;
 		border-color: white;
 	}
 
 	.content{
-		div{	
-			text-align: center;
-			color: white;
+		div{
+			display: flex;
+			justify-content: center;
 
-			p{
-				
-			}
-
-			.font1{
-				font-family: "Work Sans";
-				font-size: 25px;
-				margin:0;
-			}
-
-			.font2{
-				font-family: "Londrina Sketch";
-				font-size: 40px;
-				margin: 0;
-
-				&:nth-of-type(2){
-					font-size: 45px;
-				}
-
-				&:nth-of-type(3){
-					font-size: 50px;
-				}
-
-				&:nth-of-type(4){
-					font-size: 60px;
-				}
-
-				&:nth-of-type(5){
-					font-size: 75px;
-				}
-
-				&:nth-of-type(6){
-					font-size: 80px;
-				}
-			}	
-
-			.koi{
-				font-family: "Londrina Sketch";
-				font-size: 150px;
-				margin: 0;
+			img{
+				height: 50vh;
+				margin-top: 50px;
+				margin-bottom: 50px;
 			}
 		}
 	}
@@ -72,6 +36,4 @@
 			}
 		}
 	}
-
-
 }

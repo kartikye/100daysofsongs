@@ -1,0 +1,37 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Shelter - Porter Madeon                                             //
+//  07-10-2017                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+
+#day17{
+	background: #ffe5d5;
+
+	.number{
+		color: white	;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			text-align: center;
+
+			img{
+				width: 85vw;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+		}
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+}

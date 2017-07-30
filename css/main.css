@@ -26,9 +26,10 @@
 @import "https://fonts.googleapis.com/css?family=Limelight|Pacifico|Codystar";
 @import "https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Galada";
 @import "https://fonts.googleapis.com/css?family=";
-@import "https://fonts.googleapis.com/css?family=";
+@import url("https://fonts.googleapis.com/css?family=Coming+Soon");
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=Londrina+Sketch|Work+Sans:100";
+@import "https://fonts.googleapis.com/css?family=Oswald|Righteous";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -188,7 +189,7 @@ td, th {
 
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1539,6 +1540,70 @@ hr {
     color: white;
     text-decoration: underline; }
     #day16 .source a:hover {
+      color: white; }
+
+#day17 {
+  background: #ffe5d5; }
+  #day17 .number {
+    color: white;
+    border-color: white; }
+  #day17 .content div {
+    text-align: center; }
+    #day17 .content div img {
+      width: 85vw;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  #day17 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day17 .source a:hover {
+      color: white; }
+
+#day18 {
+  background-color: #F4EBDF;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  background-repeat: repeat; }
+  #day18 .number {
+    color: white;
+    border-color: white; }
+  #day18 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #day18 .content #foreground {
+      position: absolute;
+      z-index: 100;
+      width: 50%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #day18 .content #foreground #inner {
+        font-family: 'Oswald';
+        font-size: 4vh;
+        text-align: center;
+        padding: 15px;
+        color: #CA2E55; }
+        #day18 .content #foreground #inner span {
+          text-decoration-color: white; }
+    #day18 .content #ramens {
+      height: 80%;
+      width: 100%; }
+      #day18 .content #ramens div {
+        height: 16.66%;
+        width: 50%;
+        margin: 0 25% 0 25%;
+        display: flex;
+        align-items: center;
+        font-size: 16vh;
+        color: #EAC9C1;
+        font-family: "Righteous";
+        text-transform: uppercase;
+        justify-content: center; }
+  #day18 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day18 .source a:hover {
       color: white; }
 
 .topbar {

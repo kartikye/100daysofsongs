@@ -1541,6 +1541,42 @@ hr {
     #day16 .source a:hover {
       color: white; }
 
+#day17 {
+  background: #ffe5d5; }
+  #day17 .number {
+    color: white;
+    border-color: white; }
+  #day17 .content div {
+    display: flex;
+    justify-content: center; }
+    #day17 .content div img {
+      height: 50vh;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  #day17 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day17 .source a:hover {
+      color: white; }
+
+#day18 {
+  background: #c6ddff; }
+  #day18 .number {
+    color: white;
+    border-color: white; }
+  #day18 .content div {
+    display: flex;
+    justify-content: center; }
+    #day18 .content div img {
+      height: 50vh;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  #day18 .source a {
+    color: white;
+    text-decoration: underline; }
+    #day18 .source a:hover {
+      color: white; }
+
 .topbar {
   position: fixed;
   z-index: 9999;

@@ -1,0 +1,38 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Peanut Butter Jelly - Galantis                                      //
+//  07-11-2017                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+
+#day19{
+	background: #c6ddff;
+
+	.number{
+		color: white	;
+		border-color: white;
+	}
+
+	.content{
+		div{
+			display: flex;
+			justify-content: center;
+
+			img{
+				height: 50vh;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+		}
+	}
+
+	.source{
+		a{
+			color: white;
+			text-decoration: underline;
+
+			&:hover{
+				color: white;
+			}
+		}
+	}
+}

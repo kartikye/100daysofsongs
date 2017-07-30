@@ -1559,22 +1559,22 @@ hr {
     #day17 .source a:hover {
       color: white; }
 
-#day18 {
+#day19 {
   background: #c6ddff; }
-  #day18 .number {
+  #day19 .number {
     color: white;
     border-color: white; }
-  #day18 .content div {
+  #day19 .content div {
     display: flex;
     justify-content: center; }
-    #day18 .content div img {
+    #day19 .content div img {
       height: 50vh;
       margin-top: 50px;
       margin-bottom: 50px; }
-  #day18 .source a {
+  #day19 .source a {
     color: white;
     text-decoration: underline; }
-    #day18 .source a:hover {
+    #day19 .source a:hover {
       color: white; }
 
 .topbar {

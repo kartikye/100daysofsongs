@@ -189,7 +189,7 @@ td, th {
 
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1565,10 +1565,9 @@ hr {
     color: white;
     border-color: white; }
   #day18 .content div {
-    display: flex;
-    justify-content: center; }
+    text-align: center; }
     #day18 .content div img {
-      height: 50vh;
+      width: 80vw;
       margin-top: 50px;
       margin-bottom: 50px; }
   #day18 .source a {

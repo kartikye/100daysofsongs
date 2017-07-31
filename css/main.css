@@ -1616,13 +1616,23 @@ hr {
   padding-left: 50px;
   padding-right: 50px;
   text-transform: uppercase;
-  font-family: "Oswald"; }
-  .topbar div a {
-    color: #b1578e; }
-  .topbar div:nth-of-type(2) {
-    text-align: center; }
-  .topbar div:nth-of-type(3) a {
-    float: right; }
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .topbar div {
+    	/*	&:nth-of-type(2){
+    			text-align:center;
+    		}
+    
+    		&:nth-of-type(3){
+    			a{
+    				float: right;
+    			}
+    		}
+    	}*/ }
+    .topbar div a {
+      color: #b1578e; }
 
 section {
   min-height: 110%;

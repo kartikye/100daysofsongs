@@ -41,12 +41,16 @@
 	text-transform: uppercase;
 	font-family: "Oswald";
 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
 	div{
 		a{
 			color: #b1578e;
 		}
 
-		&:nth-of-type(2){
+	/*	&:nth-of-type(2){
 			text-align:center;
 		}
 
@@ -55,6 +59,7 @@
 				float: right;
 			}
 		}
+	}*/
 	}
 }
 

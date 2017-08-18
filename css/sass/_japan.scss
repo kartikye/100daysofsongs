@@ -1,0 +1,45 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Japan                                                               //
+//  14-08-2016                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+@import 'https://fonts.googleapis.com/css?family=Fugaz+One|Noto+Sans';
+
+#japan{
+	background: url(../japan/images/bg1.jpg);
+	background-size: cover;
+	.content{
+		div{
+			h1 {
+				font-family: 'Fugaz One';
+				color: white;
+				font-size: 150px;
+				margin: 0;
+				padding: 0;
+				text-shadow: 5px 5px lightskyblue;
+			}
+
+			h3 {
+				color: white;
+				font-size: 25px;
+				margin: -10 0 10 0;
+				padding: 5 10 5 10;
+				font-family: 'Noto Sans';
+				background-color: lightskyblue;
+				display: inline-block;
+				border-radius: 15px;
+				letter-spacing: 5px;
+			}
+			
+			a{
+				font-family: 'Noto Sans';
+				font-size: 30px;
+				color: white;
+
+				&:hover{
+					color: lightskyblue;
+				}
+			}
+		}
+	}
+}

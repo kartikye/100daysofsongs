@@ -1530,10 +1530,9 @@ hr {
     color: white;
     border-color: white; }
   #day16 .content div {
-    display: flex;
-    justify-content: center; }
+    text-align: center; }
     #day16 .content div img {
-      height: 50vh;
+      width: 60vw;
       margin-top: 50px;
       margin-bottom: 50px; }
   #day16 .source a {
@@ -1565,10 +1564,9 @@ hr {
     color: white;
     border-color: white; }
   #day18 .content div {
-    display: flex;
-    justify-content: center; }
+    text-align: center; }
     #day18 .content div img {
-      height: 50vh;
+      width: 85vw;
       margin-top: 50px;
       margin-bottom: 50px; }
   #day18 .source a {

@@ -1,0 +1,508 @@
+@import 'http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css'; 
+@import 'https://fonts.googleapis.com/css?family=Fugaz+One|Noto+Sans|Bodoni';
+
+*{
+    font-family: 'Noto Sans';
+}
+
+section{
+    min-height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.min-height-0{
+    min-height: 0;
+}
+
+.title{
+
+    background-size: cover;
+    background-position: center;
+
+    h1{
+        font-family: 'Fugaz One';
+        color: white;
+        font-size: 150px;
+        margin: 0 0 20 0;
+        padding: 0;
+        text-shadow: 5px 5px lightskyblue;
+    }
+
+    h3 {
+        display: inline-flex;
+        margin: -10 0 10 0;
+    }
+}
+
+.intro{
+    min-height: 0;
+    padding: 60px 0 60px 0;
+        
+
+    img{
+        width: 50vw;
+        border: 20px solid #fff9f1;
+    }
+}
+
+.block{
+    width: 20vw;
+    color: white;
+    border: 3px solid lightskyblue;
+    padding: 50px;
+    background: lightskyblue;
+    font-family: 'Noto Sans';
+
+}
+
+.vertical-text{
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.day{
+    border: solid 1px white;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Noto Sans';
+    margin: 0;
+}
+
+.place{
+    color: white;
+    font-size: 25px;
+    padding: 5 10 5 10;
+    font-family: 'Noto Sans';
+    background-color: lightskyblue;
+    border-radius: 15px;
+    letter-spacing: 5px;
+}
+
+.map{
+    position: relative;
+    img{
+        width: 100%;
+    }
+}
+
+.section-title-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 60px 0 0 0;
+
+    h2, h3{
+        margin: 0;
+        padding: 0;
+    }
+
+    h2{
+        font-size: 60px;
+    }
+}
+
+.blurbs{
+    margin: 40px 0 60px 0;
+    padding: 20px;
+    border-bottom: solid 3px lightskyblue;
+    .blurb{
+        width: 35vw;
+        margin: 16px 0 0 0;
+        font-size: 20px;
+        &:first-of-type{
+            margin-top: 0px
+        }
+        &:last-of-type{
+            margin-bottom: 16px;
+        }
+    }
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    
+    .title{
+        background: url(../images/bg1.jpg);
+        background-size: cover;
+        text-align: center;
+    }
+
+    #osaka{
+
+        .title{
+            background: url(../images/osaka.jpg);
+            background-size: cover;
+        }
+
+        #day1{
+            .intro{
+                background-color: #8fe9ff;
+
+                .day{
+                    color: #313131;
+                    border-color: #313131;
+                }
+            }
+
+            .intro-blurbs{
+                min-height: 0;
+
+                .blurbs{
+                    .blurb{
+                        color: #313131;
+                    }
+                }
+            }
+        }
+
+        #day2{
+            .intro{
+                background-color: #ffd3c1;
+            }
+
+            #aquarium{
+                min-height: 0;
+
+                .title{
+                    margin-top: 15vh;
+                }
+
+                #aquarium-images{
+
+                    img{
+                        width: 32%
+                    }
+
+                    div{
+                        width: 70%;
+                    }
+
+                    #penguins{
+                        margin: 60px 0 7.5vh 15%;
+                    }
+
+                    #bigtank{
+                        margin: 7.5vh 0 7.5vh 5%;
+                    }
+
+                    #smalltanks{
+                        margin: 7.5vh 0 0 15%;
+                    }
+                }
+            }
+
+            .transition{
+                background: url(../images/osakatrainstation.jpg);
+                background-size: cover;
+                min-height: 300px;
+                height: 50vh;
+                background-position: center;
+                margin: 60px 0 60px 0;
+            }
+
+            #dotonburi{
+
+                #dotonburi-intro{
+                    display: flex;
+                    flex-direction: row;
+                    
+                    div{
+                        height: 100%;
+                    }
+
+                    #dotonburi-image{
+                        width: 35%;
+                        margin: 0 0 0 15%;
+                        background: url(../images/dotonburi1.jpg);
+                        background-size: cover;
+                        height: 80vh;
+                    }
+
+                    #dotonburi-title{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        width: 55%;
+                        text-align: center;
+
+                        color: #ee8a12;
+
+                        h1{
+                            font-size: 10vw;
+                        }
+                    }
+                }
+
+                #dotonburi-description{
+                    min-height: 0;
+                }
+
+                #dotonburi-images{
+                    background-color: #8BA4A0;
+                        div{
+                        width: 86%;
+                        img{
+                            filter: grayscale(100%);
+                            width: 40vw;
+                            border: 5px solid white;
+
+                            &:first-of-type{
+                                margin: 0 3vw 10% 0;
+                            }
+
+                            &:last-of-type{
+                                margin-top: 10%;
+                            }
+
+                            &:hover{
+                                filter: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #day3{
+            .intro{
+                background-color: cbb3f3;
+            }
+
+            #osaka-castle{
+                #osaka-castle-intro{
+                    min-height: 0;
+                }
+
+                #osaka-castle-pictures{
+                    display: flex;
+                    flex-direction: row;
+                    background-color: #F4F1D3;
+                    min-height: 0;
+                    padding: 60px 0 60px 0;
+
+                    img{
+                        border: solid 2vw ;
+
+                        &:first-of-type{
+                            border-color: #DAE4ED;
+                            width: 26.25vw;
+                        }
+
+                        &:last-of-type{
+                            border-color: #E8DEE4;
+                            width: 35vw;
+                        }
+
+
+                    }
+                }
+
+                #osaka-castle-views{
+                    flex-direction: row;
+                    margin: 1vw 0 1vw 0;
+                    div{
+                        width: 23.75vw;
+                        min-height: 105vh   ;
+                        border-left: 1vw solid white;
+                    
+                        &:first-of-type{
+                            background: url(../images/osakaview1.jpg);
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                        &:nth-of-type(2){
+                            background: url(../images/osakaview2.jpg);
+                            background-size: cover;
+                            background-position: left;
+                        }
+
+                        &:nth-of-type(3){
+                            background: url(../images/osakaview3.jpg);
+                            background-size: cover;
+                            background-position: right;
+                        }
+
+                        &:last-of-type{
+                            background: url(../images/osakaview4.jpg);
+                            background-size: cover;
+                            background-position: center;
+                            border-right: 1vw solid white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #kyoto{
+        .title{
+            background: url(../images/kyoto.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+
+        #day3pt2{
+            margin-top: 60px;
+
+            #kyotostation{
+                min-height: 50vh;
+                align-items: center;
+                flex-direction: row;
+                div{
+                    height: 50vh;
+                    width: 33.33vw;
+
+                    &:first-of-type{
+                        background: url(../images/kyotostationceiling1.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    &:nth-of-type(2 ){
+                        background: url(../images/kyotostationceiling2.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    &:last-of-type{
+                        background: url(../images/kyotostationceiling3.jpg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+            }
+
+            #kyototower{
+                .tower-row{
+                    height: 32vh;
+                    width: 96vh;
+
+                    display: flex;
+                    flex-direction: row;
+
+                    div{
+                        width: 30vh;
+                        height: 30vh;
+                        max-width: 30vw;
+                        max-height: 30vw;
+                        margin: 1vh 1vh 1vh 1vh;
+                    }
+
+                    &:first-of-type{
+                        div{
+                            &:first-of-type{
+                                background: url(../images/kyototower1.jpg);
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:nth-of-type(2 ){
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:last-of-type{
+                                background: url(../images/kyototower2.jpg);
+                                background-size: cover;
+                                background-position: center;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(2){
+                        div{
+                            &:first-of-type{
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:nth-of-type(2 ){
+                                background: url(../images/kyototower3.jpg);
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:last-of-type{
+                                background-size: cover;
+                                background-position: center;
+                            }
+                        }
+                    }
+
+                    &:last-of-type{
+                        div{
+                            &:first-of-type{
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:nth-of-type(2 ){
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:last-of-type{
+                                background: url(../images/kyototower4.jpg);
+                                background-size: cover;
+                                background-position: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #day4{
+            #gates1{
+                min-height: 100vh;    
+                background-color: #000;
+                text-align: center;
+
+                .place{
+                    background-color: black;
+                }
+
+                img{
+                    max-width: 100%;
+                    max-height: 70vh;
+                }
+            }
+
+            #inari{
+                .gates2{
+                    text-align: center;
+                    margin-top: 60px;
+                    img{
+                        max-width: 80vw;
+                    }
+                }
+            }
+        }
+    }
+
+    #hakone{
+        .title{
+            background: url(../images/hakone.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+    }
+
+    #tokyo{
+        .title{
+            background: url(../images/tokyo.jpg);
+            background-size: cover;
+            text-align: center;
+        }
+    }
+}

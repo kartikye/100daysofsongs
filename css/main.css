@@ -30,6 +30,8 @@
 @import "https://fonts.googleapis.com/css?family=";
 @import "https://fonts.googleapis.com/css?family=Londrina+Sketch|Work+Sans:100";
 @import "https://fonts.googleapis.com/css?family=Oswald|Righteous";
+@import "https://fonts.googleapis.com/css?family=Fugaz+One|Noto+Sans";
+@import "https://fonts.googleapis.com/css?family=Viga";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -189,7 +191,7 @@ td, th {
 
 html {
   font-size: 10px;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1566,7 +1568,7 @@ hr {
   #day18 .content div {
     text-align: center; }
     #day18 .content div img {
-      width: 85vw;
+      width: 80vw;
       margin-top: 50px;
       margin-bottom: 50px; }
   #day18 .source a {
@@ -1622,6 +1624,79 @@ hr {
     #day19 .source a:hover {
       color: white; }
 
+#japan {
+  background: url(../japan/images/bg1.jpg);
+  background-size: cover;
+  min-height: 85vh; }
+  #japan .content div h1 {
+    font-family: 'Fugaz One';
+    color: white;
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 5px 5px lightskyblue; }
+  #japan .content div h3 {
+    color: white;
+    font-size: 25px;
+    margin: 10 0 20 0;
+    padding: 5 10 5 10;
+    font-family: 'Noto Sans';
+    background-color: lightskyblue;
+    display: inline-block;
+    border-radius: 15px;
+    letter-spacing: 5px; }
+  #japan .content div a {
+    font-family: 'Noto Sans';
+    font-size: 30px;
+    color: white;
+    background-color: lightskyblue;
+    padding: 5 10 5 10;
+    border-radius: 15px; }
+    #japan .content div a:hover {
+      color: lightskyblue;
+      background-color: #fff;
+      text-decoration: none; }
+  #japan .col-sm-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
+#newyork {
+  background: url(../images/newyork.jpg);
+  background-size: cover;
+  min-height: 100vh; }
+  #newyork .content div h1 {
+    font-family: 'Viga';
+    color: white;
+    font-size: 150px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate; }
+  #newyork .content div h3 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Viga';
+    display: inline-block;
+    color: #DD0048; }
+  #newyork .col-sm-10 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DD0048, 0 0 70px #DD0048, 0 0 80px #DD0048, 0 0 100px #DD0048, 0 0 150px #DD0048; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DD0048, 0 0 35px #DD0048, 0 0 40px #DD0048, 0 0 50px #DD0048, 0 0 75px #DD0048; } }
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DD0048, 0 0 70px #DD0048, 0 0 80px #DD0048, 0 0 100px #DD0048, 0 0 150px #DD0048; }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DD0048, 0 0 35px #DD0048, 0 0 40px #DD0048, 0 0 50px #DD0048, 0 0 75px #DD0048; } }
 .topbar {
   position: fixed;
   z-index: 9999;
@@ -1632,13 +1707,23 @@ hr {
   padding-left: 50px;
   padding-right: 50px;
   text-transform: uppercase;
-  font-family: "Oswald"; }
-  .topbar div a {
-    color: #b1578e; }
-  .topbar div:nth-of-type(2) {
-    text-align: center; }
-  .topbar div:nth-of-type(3) a {
-    float: right; }
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .topbar div {
+    	/*	&:nth-of-type(2){
+    			text-align:center;
+    		}
+    
+    		&:nth-of-type(3){
+    			a{
+    				float: right;
+    			}
+    		}
+    	}*/ }
+    .topbar div a {
+      color: #b1578e; }
 
 section {
   min-height: 110%;

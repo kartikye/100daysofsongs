@@ -1,0 +1,59 @@
+//////////////////////////////////////////////////////////////////////////
+// 	Japan                                                               //
+//  14-08-2016                                                          //
+//////////////////////////////////////////////////////////////////////////
+
+ @import 'https://fonts.googleapis.com/css?family=Viga';
+
+#newyork{
+	background: url(../images/newyork.jpg);
+	background-size: cover;
+	min-height: 100vh;
+	.content{
+		div{
+			h1 {
+				font-family: 'Viga';
+				color: white;
+				font-size: 150px;
+				margin: 0;
+				padding: 0;
+				color: #fff;
+  				-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  				-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  				animation: neon1 1.5s ease-in-out infinite alternate;
+			}
+
+			h3 {
+				color: white;
+				font-size: 25px;
+				font-family: 'Viga';
+				display: inline-block;
+				color: #DD0048;
+			}
+		}
+	}
+
+	.col-sm-10{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DD0048, 0 0 70px #DD0048, 0 0 80px #DD0048, 0 0 100px #DD0048, 0 0 150px #DD0048;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DD0048, 0 0 35px #DD0048, 0 0 40px #DD0048, 0 0 50px #DD0048, 0 0 75px #DD0048;
+  }
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #DD0048, 0 0 70px #DD0048, 0 0 80px #DD0048, 0 0 100px #DD0048, 0 0 150px #DD0048;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #DD0048, 0 0 35px #DD0048, 0 0 40px #DD0048, 0 0 50px #DD0048, 0 0 75px #DD0048;
+  }
+}

@@ -1,0 +1,307 @@
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Fugaz+One|Noto+Sans|Bodoni";
+* {
+  font-family: 'Noto Sans'; }
+
+section {
+  min-height: 105vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.min-height-0 {
+  min-height: 0; }
+
+.title {
+  background-size: cover;
+  background-position: center; }
+  .title h1 {
+    font-family: 'Fugaz One';
+    color: white;
+    font-size: 150px;
+    margin: 0 0 20 0;
+    padding: 0;
+    text-shadow: 5px 5px lightskyblue; }
+  .title h3 {
+    display: inline-flex;
+    margin: -10 0 10 0; }
+
+.intro {
+  min-height: 0;
+  padding: 60px 0 60px 0; }
+  .intro img {
+    width: 50vw;
+    border: 20px solid #fff9f1; }
+
+.block {
+  width: 20vw;
+  color: white;
+  border: 3px solid lightskyblue;
+  padding: 50px;
+  background: lightskyblue;
+  font-family: 'Noto Sans'; }
+
+.vertical-text {
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl; }
+
+.day {
+  border: solid 1px white;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Noto Sans';
+  margin: 0; }
+
+.place {
+  color: white;
+  font-size: 25px;
+  padding: 5 10 5 10;
+  font-family: 'Noto Sans';
+  background-color: lightskyblue;
+  border-radius: 15px;
+  letter-spacing: 5px; }
+
+.map {
+  position: relative; }
+  .map img {
+    width: 100%; }
+
+.section-title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 0 0; }
+  .section-title-block h2, .section-title-block h3 {
+    margin: 0;
+    padding: 0; }
+  .section-title-block h2 {
+    font-size: 60px; }
+
+.blurbs {
+  margin: 40px 0 60px 0;
+  padding: 20px;
+  border-bottom: solid 3px lightskyblue; }
+  .blurbs .blurb {
+    width: 35vw;
+    margin: 16px 0 0 0;
+    font-size: 20px; }
+    .blurbs .blurb:first-of-type {
+      margin-top: 0px; }
+    .blurbs .blurb:last-of-type {
+      margin-bottom: 16px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+  body .title {
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    text-align: center; }
+  body #osaka .title {
+    background: url(../images/osaka.jpg);
+    background-size: cover; }
+  body #osaka #day1 .intro {
+    background-color: #8fe9ff; }
+    body #osaka #day1 .intro .day {
+      color: #313131;
+      border-color: #313131; }
+  body #osaka #day1 .intro-blurbs {
+    min-height: 0; }
+    body #osaka #day1 .intro-blurbs .blurbs .blurb {
+      color: #313131; }
+  body #osaka #day2 .intro {
+    background-color: #ffd3c1; }
+  body #osaka #day2 #aquarium {
+    min-height: 0; }
+    body #osaka #day2 #aquarium .title {
+      margin-top: 15vh; }
+    body #osaka #day2 #aquarium #aquarium-images img {
+      width: 32%; }
+    body #osaka #day2 #aquarium #aquarium-images div {
+      width: 70%; }
+    body #osaka #day2 #aquarium #aquarium-images #penguins {
+      margin: 60px 0 7.5vh 15%; }
+    body #osaka #day2 #aquarium #aquarium-images #bigtank {
+      margin: 7.5vh 0 7.5vh 5%; }
+    body #osaka #day2 #aquarium #aquarium-images #smalltanks {
+      margin: 7.5vh 0 0 15%; }
+  body #osaka #day2 .transition {
+    background: url(../images/osakatrainstation.jpg);
+    background-size: cover;
+    min-height: 300px;
+    height: 50vh;
+    background-position: center;
+    margin: 60px 0 60px 0; }
+  body #osaka #day2 #dotonburi #dotonburi-intro {
+    display: flex;
+    flex-direction: row; }
+    body #osaka #day2 #dotonburi #dotonburi-intro div {
+      height: 100%; }
+    body #osaka #day2 #dotonburi #dotonburi-intro #dotonburi-image {
+      width: 35%;
+      margin: 0 0 0 15%;
+      background: url(../images/dotonburi1.jpg);
+      background-size: cover;
+      height: 80vh; }
+    body #osaka #day2 #dotonburi #dotonburi-intro #dotonburi-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 55%;
+      text-align: center;
+      color: #ee8a12; }
+      body #osaka #day2 #dotonburi #dotonburi-intro #dotonburi-title h1 {
+        font-size: 10vw; }
+  body #osaka #day2 #dotonburi #dotonburi-description {
+    min-height: 0; }
+  body #osaka #day2 #dotonburi #dotonburi-images {
+    background-color: #8BA4A0; }
+    body #osaka #day2 #dotonburi #dotonburi-images div {
+      width: 86%; }
+      body #osaka #day2 #dotonburi #dotonburi-images div img {
+        filter: grayscale(100%);
+        width: 40vw;
+        border: 5px solid white; }
+        body #osaka #day2 #dotonburi #dotonburi-images div img:first-of-type {
+          margin: 0 3vw 10% 0; }
+        body #osaka #day2 #dotonburi #dotonburi-images div img:last-of-type {
+          margin-top: 10%; }
+        body #osaka #day2 #dotonburi #dotonburi-images div img:hover {
+          filter: none; }
+  body #osaka #day3 .intro {
+    background-color: cbb3f3; }
+  body #osaka #day3 #osaka-castle #osaka-castle-intro {
+    min-height: 0; }
+  body #osaka #day3 #osaka-castle #osaka-castle-pictures {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F1D3;
+    min-height: 0;
+    padding: 60px 0 60px 0; }
+    body #osaka #day3 #osaka-castle #osaka-castle-pictures img {
+      border: solid 2vw; }
+      body #osaka #day3 #osaka-castle #osaka-castle-pictures img:first-of-type {
+        border-color: #DAE4ED;
+        width: 26.25vw; }
+      body #osaka #day3 #osaka-castle #osaka-castle-pictures img:last-of-type {
+        border-color: #E8DEE4;
+        width: 35vw; }
+  body #osaka #day3 #osaka-castle #osaka-castle-views {
+    flex-direction: row;
+    margin: 1vw 0 1vw 0; }
+    body #osaka #day3 #osaka-castle #osaka-castle-views div {
+      width: 23.75vw;
+      min-height: 105vh;
+      border-left: 1vw solid white; }
+      body #osaka #day3 #osaka-castle #osaka-castle-views div:first-of-type {
+        background: url(../images/osakaview1.jpg);
+        background-size: cover;
+        background-position: center; }
+      body #osaka #day3 #osaka-castle #osaka-castle-views div:nth-of-type(2) {
+        background: url(../images/osakaview2.jpg);
+        background-size: cover;
+        background-position: left; }
+      body #osaka #day3 #osaka-castle #osaka-castle-views div:nth-of-type(3) {
+        background: url(../images/osakaview3.jpg);
+        background-size: cover;
+        background-position: right; }
+      body #osaka #day3 #osaka-castle #osaka-castle-views div:last-of-type {
+        background: url(../images/osakaview4.jpg);
+        background-size: cover;
+        background-position: center;
+        border-right: 1vw solid white; }
+  body #kyoto .title {
+    background: url(../images/kyoto.jpg);
+    background-size: cover;
+    text-align: center; }
+  body #kyoto #day3pt2 {
+    margin-top: 60px; }
+    body #kyoto #day3pt2 #kyotostation {
+      min-height: 50vh;
+      align-items: center;
+      flex-direction: row; }
+      body #kyoto #day3pt2 #kyotostation div {
+        height: 50vh;
+        width: 33.33vw; }
+        body #kyoto #day3pt2 #kyotostation div:first-of-type {
+          background: url(../images/kyotostationceiling1.jpg);
+          background-size: cover;
+          background-position: center; }
+        body #kyoto #day3pt2 #kyotostation div:nth-of-type(2) {
+          background: url(../images/kyotostationceiling2.jpg);
+          background-size: cover;
+          background-position: center; }
+        body #kyoto #day3pt2 #kyotostation div:last-of-type {
+          background: url(../images/kyotostationceiling3.jpg);
+          background-size: cover;
+          background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row {
+      height: 32vh;
+      width: 96vh;
+      display: flex;
+      flex-direction: row; }
+      body #kyoto #day3pt2 #kyototower .tower-row div {
+        width: 30vh;
+        height: 30vh;
+        max-width: 30vw;
+        max-height: 30vw;
+        margin: 1vh 1vh 1vh 1vh; }
+      body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:first-of-type {
+        background: url(../images/kyototower1.jpg);
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:nth-of-type(2) {
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:last-of-type {
+        background: url(../images/kyototower2.jpg);
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:first-of-type {
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:nth-of-type(2) {
+        background: url(../images/kyototower3.jpg);
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:last-of-type {
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:first-of-type {
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:nth-of-type(2) {
+        background-size: cover;
+        background-position: center; }
+      body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:last-of-type {
+        background: url(../images/kyototower4.jpg);
+        background-size: cover;
+        background-position: center; }
+  body #kyoto #day4 #gates1 {
+    min-height: 100vh;
+    background-color: #000;
+    text-align: center; }
+    body #kyoto #day4 #gates1 .place {
+      background-color: black; }
+    body #kyoto #day4 #gates1 img {
+      max-width: 100%;
+      max-height: 70vh; }
+  body #kyoto #day4 #inari .gates2 {
+    text-align: center;
+    margin-top: 60px; }
+    body #kyoto #day4 #inari .gates2 img {
+      max-width: 80vw; }
+  body #hakone .title {
+    background: url(../images/hakone.jpg);
+    background-size: cover;
+    text-align: center; }
+  body #tokyo .title {
+    background: url(../images/tokyo.jpg);
+    background-size: cover;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

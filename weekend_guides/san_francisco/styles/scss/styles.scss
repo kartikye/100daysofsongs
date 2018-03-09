@@ -1,0 +1,320 @@
+@import 'normalize';
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface';
+@import 'grid';
+@import 'balloon';
+@import 'fonts';
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+$sfred: #ff7665;
+
+section{
+	padding: 0;
+	margin: 0;
+}
+
+h3{
+	a{
+		text-decoration: none;
+		color: #444;
+
+		&:hover{
+			color: $sfred;
+		}
+
+		&:visited{
+			//	color: #444;	
+		}
+	}
+}
+
+header{
+	text-align: center;
+
+	padding: 10px;
+
+	img{
+		width: 90%;
+		max-width: 500px;
+	}
+}
+
+#first{
+	height: 97vh;
+	width: 94vw;
+	margin: 3vw 3vw 0 3vw;
+	background: url(../images/fog_golden_gate.jpg);
+	background-position: bottom;
+	background-size: cover;
+
+	div{
+		font-family: Proxima_Nova;
+		font-weight: 200;
+		color: white;
+		font-size: 50px;
+		padding: 3vw 0 0 3vw;
+	}
+}
+
+#second{
+	background-color: $sfred;
+	position: relative;
+	height: 33vw;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 3vw;
+
+	p{
+		font-family: Proxima_Nova;
+		font-weight: 600;
+		font-style: italic;
+		position: absolute;
+		color: white;
+		font-size: 25px;
+		width: 180px; 
+	}
+
+	img{
+		width: 100%;
+		margin-top: -6vw;
+	}
+}
+
+#third{
+	width: 94vw;
+	margin: 0 3vw 0 3vw;
+
+	.col-md-6{
+
+
+
+		&:first-of-type{
+			background: url(../images/san_francisco_road.jpg);
+			background-position: center;
+			background-size: cover;
+			min-height: 20vh;
+		}
+
+		&:last-of-type{
+			font-family: Proxima_Nova;
+			font-weight: 600;
+			font-size: 30px;
+
+			display: flex;
+			justify-content: center;
+
+			background-color: #fcc999;
+
+			p{
+				width: 320px;
+				margin: 100px 0 100px 0;
+				color: white;
+
+				i{
+					font-style: italic;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+#fourth{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+	div{
+		img, svg{
+			width: 130px;
+		}
+
+		&:nth-of-type(2){
+			margin:0 20px 0 20px;
+		}
+
+		p{
+			text-align: center;
+			font-family: Proxima_Nova;
+			font-weight: 700;
+			font-size: 16px;
+			margin-top: 10px;
+			color: $sfred;
+			text-transform: uppercase;
+			text-decoration: none;
+
+		}
+	}
+
+	a{
+		text-decoration: none;
+		&:hover{
+			div{p{color: black;}}
+		}
+	}
+}
+
+
+.section-title{
+	padding-left: 6vw;
+	font-family: Proxima_Nova;
+	font-weight: 700;
+	font-size: 40px;
+	color: $sfred;
+	text-transform: uppercase;
+}
+
+
+#food{
+	width: 94vw;
+	margin: 0 3vw 0 3vw;
+
+	.col-md-6{
+		min-height: 60vh;
+		&:first-of-type{
+			display: flex;
+			align-items: center;
+			.restaurant{
+				font-family: Proxima_Nova;
+				margin: 30px 0 30px 0;
+				padding-left: 6vw;
+				h3{
+					font-weight: 600;
+					margin: 0;
+					padding: 0;
+					font-size: 24px;
+				}
+				p{
+					font-size: 16px;
+					font-weight: 400;
+					margin: 5px 0 0 0;
+					padding: 0;
+					font-style: italic;
+				}
+			}
+		}
+
+		&:last-of-type{
+			background: url(../images/food.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+	}
+}
+
+#sights{
+	width: 94vw;
+	margin: 0 3vw 0 3vw;
+
+	.col-md-6{
+		min-height: 60vh;
+		
+		&:last-of-type{
+			display: flex;
+			align-items: center;
+			h1{
+				padding-left: 6vw;
+			}
+			.sight{
+				font-family: Proxima_Nova;
+				margin: 30px 0 30px 0;
+				padding-left: 6vw;
+				h3{
+					font-weight: 600;
+					margin: 0;
+					padding: 0;
+					font-size: 24px;
+				}
+				p{
+					font-size: 16px;
+					font-weight: 400;
+					margin: 5px 0 0 0;
+					padding: 0;
+					font-style: italic;
+				}
+			}
+		}
+
+		&:first-of-type{
+			background: url(../images/sights.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+	}
+}
+
+#nightlife{
+	width: 94vw;
+	margin: 0 3vw 0 3vw;
+
+	.col-md-6{
+		min-height: 60vh;
+		&:first-of-type{
+			display: flex;
+			align-items: center;
+			.restaurant{
+				font-family: Proxima_Nova;
+				margin: 30px 0 30px 0;
+				padding-left: 6vw;
+				h3{
+					font-weight: 600;
+					margin: 0;
+					padding: 0;
+					font-size: 24px;
+				}
+				p{
+					font-size: 16px;
+					font-weight: 400;
+					margin: 5px 0 0 0;
+					padding: 0;
+					font-style: italic;
+
+					span{
+						font-style: normal;
+					}
+				}
+			}
+		}
+
+		&:last-of-type{
+			background: url(../images/nightlife.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+	}
+}
+
+#itinerary{
+	background-color: $sfred;
+	padding: 60px 0 60px 0;
+
+	.title{
+		&:first-of-type{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+		}
+	}
+
+	img, svg{
+		width: 130px;
+	}
+	.section-title{
+		color: white;
+		padding-left: 1vw;
+	}
+
+	hr{
+		width: 30%;
+		border: 1px solid white;
+		box-shadow: none;
+		margin-top: 20px;
+	}
+}
+
+#image_credits{
+	margin: 0 3vw 0 3vw;
+	font-family: Proxima_Nova;
+}

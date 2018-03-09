@@ -218,69 +218,67 @@ body {
     background: url(../images/kyoto.jpg);
     background-size: cover;
     text-align: center; }
-  body #kyoto #day3pt2 {
-    margin-top: 60px; }
-    body #kyoto #day3pt2 #kyotostation {
-      min-height: 50vh;
-      align-items: center;
-      flex-direction: row; }
-      body #kyoto #day3pt2 #kyotostation div {
-        height: 50vh;
-        width: 33.33vw; }
-        body #kyoto #day3pt2 #kyotostation div:first-of-type {
-          background: url(../images/kyotostationceiling1.jpg);
-          background-size: cover;
-          background-position: center; }
-        body #kyoto #day3pt2 #kyotostation div:nth-of-type(2) {
-          background: url(../images/kyotostationceiling2.jpg);
-          background-size: cover;
-          background-position: center; }
-        body #kyoto #day3pt2 #kyotostation div:last-of-type {
-          background: url(../images/kyotostationceiling3.jpg);
-          background-size: cover;
-          background-position: center; }
-    body #kyoto #day3pt2 #kyototower .tower-row {
-      height: 32vh;
-      width: 96vh;
-      display: flex;
-      flex-direction: row; }
-      body #kyoto #day3pt2 #kyototower .tower-row div {
-        width: 30vh;
-        height: 30vh;
-        max-width: 30vw;
-        max-height: 30vw;
-        margin: 1vh 1vh 1vh 1vh; }
-      body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:first-of-type {
-        background: url(../images/kyototower1.jpg);
+  body #kyoto #day3pt2 #kyotostation {
+    min-height: 50vh;
+    align-items: center;
+    flex-direction: row; }
+    body #kyoto #day3pt2 #kyotostation div {
+      height: 50vh;
+      width: 33.33vw; }
+      body #kyoto #day3pt2 #kyotostation div:first-of-type {
+        background: url(../images/kyotostationceiling1.jpg);
         background-size: cover;
         background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:nth-of-type(2) {
+      body #kyoto #day3pt2 #kyotostation div:nth-of-type(2) {
+        background: url(../images/kyotostationceiling2.jpg);
         background-size: cover;
         background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:last-of-type {
-        background: url(../images/kyototower2.jpg);
+      body #kyoto #day3pt2 #kyotostation div:last-of-type {
+        background: url(../images/kyotostationceiling3.jpg);
         background-size: cover;
         background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:first-of-type {
-        background-size: cover;
-        background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:nth-of-type(2) {
-        background: url(../images/kyototower3.jpg);
-        background-size: cover;
-        background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:last-of-type {
-        background-size: cover;
-        background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:first-of-type {
-        background-size: cover;
-        background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:nth-of-type(2) {
-        background-size: cover;
-        background-position: center; }
-      body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:last-of-type {
-        background: url(../images/kyototower4.jpg);
-        background-size: cover;
-        background-position: center; }
+  body #kyoto #day3pt2 #kyototower .tower-row {
+    height: 32vh;
+    width: 96vh;
+    display: flex;
+    flex-direction: row; }
+    body #kyoto #day3pt2 #kyototower .tower-row div {
+      width: 30vh;
+      height: 30vh;
+      max-width: 30vw;
+      max-height: 30vw;
+      margin: 1vh 1vh 1vh 1vh; }
+    body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:first-of-type {
+      background: url(../images/kyototower1.jpg);
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:nth-of-type(2) {
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:first-of-type div:last-of-type {
+      background: url(../images/kyototower2.jpg);
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:first-of-type {
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:nth-of-type(2) {
+      background: url(../images/kyototower3.jpg);
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:nth-of-type(2) div:last-of-type {
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:first-of-type {
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:nth-of-type(2) {
+      background-size: cover;
+      background-position: center; }
+    body #kyoto #day3pt2 #kyototower .tower-row:last-of-type div:last-of-type {
+      background: url(../images/kyototower4.jpg);
+      background-size: cover;
+      background-position: center; }
   body #kyoto #day4 #gates1 {
     min-height: 100vh;
     background-color: #000;
@@ -295,6 +293,24 @@ body {
     margin-top: 60px; }
     body #kyoto #day4 #inari .gates2 img {
       max-width: 80vw; }
+  body #kyoto #day5pt1 #stoplight {
+    color: white;
+    background: #000;
+    margin: 0 0 0 0; }
+    body #kyoto #day5pt1 #stoplight .place {
+      background-color: #000;
+      margin-bottom: 40px; }
+    body #kyoto #day5pt1 #stoplight img {
+      width: 100%; }
+  body #kyoto #day5pt1 #bamboo {
+    margin: 60px 0 0 0; }
+    body #kyoto #day5pt1 #bamboo img {
+      width: 96%;
+      margin: 0 2% 0 2%; }
+  body #kyoto #day5pt1 #shinkansen {
+    margin: 0 0 60px 0; }
+    body #kyoto #day5pt1 #shinkansen img {
+      width: 100%; }
   body #hakone .title {
     background: url(../images/hakone.jpg);
     background-size: cover;

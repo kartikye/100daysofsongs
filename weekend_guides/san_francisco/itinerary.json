@@ -1,0 +1,270 @@
+{
+	"location": "San Francisco",
+	"itineraries": {
+		"mission": {
+			"name": "The Mission District",
+			"itinerary": [
+				{
+					"name": "Mission Dolores Park",
+					"location": {
+						"lat": 37.7596168,
+						"lng": -122.42690379999999
+					},
+					"label": "A",
+					"type": "sight",
+					"cost": "Free",
+					"time": "1.5 hours",
+					"description": "Bustling park where people gather for picincs and relaxation.",
+					"link": "http://sfrecpark.org/destination/mission-dolores-park/",
+					"link_text": "sfrecpark.org",
+					"image": "images/mission_park.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "19 minute walk"
+				},
+				{
+					"name": "Taquería El Farolito",
+					"location": {
+						"lat": 37.752654782767,
+						"lng": -122.41819202899933
+					},
+					"label": "B",
+					"type": "food",
+					"cost": "$$",
+					"description": "Busy Mexican restaurant serving comfort food.",
+					"link": "http://places.singleplatform.com/el-farolito-3/menu?ref=google",
+					"link_text": "Menu",
+					"image": "images/el_farolito.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "8 minute walk"
+				},
+				{
+					"name": "Mission District Murals",
+					"location": {
+						"lat": 37.752420993840076,
+						"lng": -122.41570642570304
+					},
+					"label": "C",
+					"type": "sight",
+					"cost": "Free",
+					"time": "1.5 hours",
+					"description": "A multitude of everchanging murals located in the Mission.",
+					"link": "",
+					"link_text": "",
+					"image": "images/mission_murals.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "14 minute walk"
+				},
+				{
+					"name": "Foreign Cinema Restaurant",
+					"location": {
+						"lat": 37.7564724,
+						"lng": -122.41928239999999
+					},
+					"label": "D",
+					"type": "food",
+					"cost": "$$$",
+					"description": "Californian-Mediterranean food in an outdoor space screening films.",
+					"link": "Website",
+					"link_text": "foreigncinema.com",
+					"image": "images/foreign_cinema.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "14 minute walk"
+				},
+				{
+					"name": "Bi Rite Creamery",
+					"location": {
+						"lat": 37.76158999999999,
+						"lng": -122.42571700000002
+					},
+					"label": "E",
+					"type": "food",
+					"cost": "$",
+					"description": "Homemade organic ice cream with often long lines.",
+					"link": "Website",
+					"link_text": "biritecreamery.com",
+					"image": "images/bi_rite.jpg"
+				},
+				{
+					"type": "drive",
+					"duration": "12 minute drive"
+				},
+				{
+					"name": "Twin Peaks",
+					"location": {
+						"lat": 37.7544066,
+						"lng": -122.44768449999998
+					},
+					"label": "C",
+					"type": "sight",
+					"cost": "Free",
+					"time": "30 minutes",
+					"description": "An amazing, 180 degree view of the Bay Area.",
+					"link": "",
+					"link_text": "",
+					"image": "images/twin_peaks.jpg"
+				}
+			]
+		}
+	},
+	"map": {
+		"location": {
+			"lat": 37.75777584134365,
+			"lng": -122.4341467629751
+		},
+		"zoom": 13,
+		"styles": [
+			{
+				"elementType": "labels",
+				"stylers": [
+			  		{
+						"color": "#f3f3f3"
+			  		}
+				]
+		  	},
+		  	{
+				"elementType": "labels.text.stroke",
+				"stylers": [
+					{
+						"color": "#949494"
+				  	},
+				  	{
+						"weight": 2.5
+				  	}
+				]
+		  	},
+		  	{
+				"featureType": "administrative",
+				"elementType": "geometry",
+				"stylers": [
+				  	{
+						"visibility": "off"
+				  	}
+				]
+			},
+			{
+				"featureType": "administrative.land_parcel",
+				"elementType": "labels",
+				"stylers": [
+			  		{
+						"visibility": "off"
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "landscape",
+				"elementType": "geometry",
+				"stylers": [
+			  		{
+						"color": "#ff766d"
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "poi",
+				"stylers": [
+			  		{
+						"visibility": "off"
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "poi",
+				"elementType": "labels.text",
+				"stylers": [
+			  		{
+						"visibility": "off"
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "road",
+				"elementType": "geometry.fill",
+				"stylers": [
+			  		{
+						"color": "#ffffff"
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "road",
+				"elementType": "geometry.stroke",
+				"stylers": [
+			  		{
+						"color": "#ffffff"
+			  		},
+			  		{
+						"weight": 0.5
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "road",
+				"elementType": "labels.icon",
+				"stylers": [
+				  	{
+						"visibility": "off"
+				  	}
+				]
+		  	},
+		  	{
+				"featureType": "road.arterial",
+				"elementType": "labels",
+				"stylers": [
+			  		{
+						"visibility": "off"
+			  		}
+				]
+		  	},
+		  	{
+				"featureType": "road.highway",
+				"elementType": "labels",
+				"stylers": [
+				  	{
+						"visibility": "off"
+				  	}
+				]
+		  	},
+		  	{
+				"featureType": "road.local",
+				"stylers": [
+				  	{
+						"visibility": "off"
+				  	}
+				]
+		  	},
+		  	{
+				"featureType": "road.local",
+				"elementType": "labels",
+				"stylers": [
+				  	{
+						"visibility": "off"
+				  	}
+				]
+		  	},
+		  	{
+				"featureType": "transit",
+				"stylers": [
+				  	{
+						"visibility": "off"
+				  	}
+				]
+		  	},
+		  	{
+				"featureType": "water",
+				"stylers": [
+				  	{
+						"color": "#54dede"
+				  	}
+				]
+		  }
+		]
+	}
+}

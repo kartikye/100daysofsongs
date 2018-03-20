@@ -1,0 +1,376 @@
+{
+	"location": "Singapore",
+	"itineraries": {
+		"sentosa": {
+			"name": "Sentosa",
+			"zoom": 12,
+			"itinerary": [
+				{
+					"name": "S.E.A. Aquarium",
+					"location": {
+						"lat": 1.258305,
+						"lng": 103.82047
+					},
+					"label": "A",
+					"type": "sight",
+					"cost": "$39",
+					"time": "1.5 hours",
+					"description": "A massive aquarium with a 36m by 8.3m viewing window.",
+					"link": "https://www.rwsentosa.com/en/attractions/sea-aquarium",
+					"link_text": "Website",
+					"image": "images/sea_aquarium.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "7 minute walk"
+				},
+				{
+					"name": "Slappy Cakes",
+					"location": {
+						"lat": 1.257118,
+						"lng": 103.82139800000004
+					},
+					"label": "B",
+					"type": "food",
+					"cost": "$$",
+					"description": "Make your own pancakes!",
+					"link": "www.slappycakes.com.sg/",
+					"link_text": "Website",
+					"image": "images/slappy_cakes.jpg"
+				},
+				{
+					"type": "train",
+					"duration": "8 minute train"
+				},
+				{
+					"name": "Sentosa Merlion",
+					"location": {
+						"lat": 1.2533952,
+						"lng": 103.81888470000001
+					},
+					"label": "C",
+					"type": "sight",
+					"cost": "$12",
+					"time": "30 minutes",
+					"description": "A Singaporean icon with a view.",
+					"link": "http://merlion.sentosa.com.sg/",
+					"link_text": "Website",
+					"image": "images/sentosa_merlion.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "5 minute walk"
+				},
+				{
+					"name": "Tiger Sky Tower",
+					"location": {
+						"lat": 1.2549754,
+						"lng": 103.81759369999997
+					},
+					"label": "D",
+					"type": "sight",
+					"cost": "$12",
+					"time": "30 minutes",
+					"description": "A view from above.",
+					"link": "https://skytower.com.sg/",
+					"link_text": "Website",
+					"image": "images/sky_tower.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "1 minute  walk"
+				},
+				{
+					"name": "Skyline Luge Sentosa",
+					"location": {
+						"lat": 1.2549696123428196,
+						"lng": 103.81736755371094
+					},
+					"label": "E",
+					"type": "sight",
+					"cost": "$23++",
+					"time": "30 minutes - 1 hour",
+					"description": "A thrilling experience to get around the island. Once is never enough.",
+					"link": "https://www.skylineluge.com/en/sentosa/",
+					"link_text": "Website",
+					"image": "images/luge.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "1 minute walk"
+				},
+				{
+					"name": "Coastes",
+					"location": {
+						"lat": 1.2524241,
+						"lng": 103.81618639999999
+					},
+					"label": "F",
+					"type": "food",
+					"cost": "$$",
+					"description": "Great foods at a beachside restaurant",
+					"link": "www.coastes.com/",
+					"link_text": "Website",
+					"image": "images/coastes.jpg"
+				},
+				{
+					"type": "train",
+					"duration": "8 minute  tram"
+				},
+				{
+					"name": "MegaZip",
+					"location": {
+						"lat": 1.256131,
+						"lng": 103.81226390000006
+					},
+					"label": "G",
+					"type": "sight",
+					"cost": "$50",
+					"time": "30 minutes",
+					"description": "A 450m long zip line that crosses water to an island right off the coast.",
+					"link": "https://sg.megaadventure.com/attractions/#section-1",
+					"link_text": "Website",
+					"image": "images/megazip.jpg"
+				},
+				{
+					"type": "train",
+					"duration": "15 minute  tram"
+				},
+				{
+					"name": "Palawan Beach",
+					"location": {
+						"lat": 1.2477073,
+						"lng": 103.82407130000001
+					},
+					"label": "H",
+					"type": "sight",
+					"cost": "free",
+					"time": "1 hour",
+					"description": "It's a beach.",
+					"link": "https://www.sentosa.com.sg/explore/beaches/palawan-beach",
+					"link_text": "Website",
+					"image": "images/palawan_beach.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "11 minute  walk"
+				},
+				{
+					"name": "Flame",
+					"location": {
+						"lat": 1.2518496,
+						"lng": 103.81644719999997
+					},
+					"label": "I",
+					"type": "food",
+					"cost": "$$",
+					"description": "Casual beachside restaurant.",
+					"link": "https://www.sentosa.com.sg/explore/dining/flame",
+					"link_text": "Website",
+					"image": "images/flame.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "1 minute walk"
+				},
+				{
+					"name": "Wings of Time",
+					"location": {
+						"lat": 1.2511681,
+						"lng": 103.81695669999999
+					},
+					"label": "J",
+					"type": "sight",
+					"cost": "$18 - $23",
+					"time": "1 hour",
+					"description": "A spectacular light and water show.",
+					"link": "www.wingsoftime.com.sg",
+					"link_text": "Website",
+					"image": "images/wings_of_time.jpg"
+				}
+			]
+		},
+		"marina_bay": {
+			"name": "Marina Bay",
+			"zoom": 16,
+			"itinerary": [
+				{
+					"name": "The Esplanade",
+					"location": {
+						"lat": 1.289793,
+						"lng": 103.855817
+					},
+					"label": "A",
+					"type": "sight",
+					"cost": "Free",
+					"time": "30 minutes",
+					"description": "",
+					"link": "https://www.esplanade.com",
+					"link_text": "Website",
+					"image": "images/esplanade.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "9 minute  walk"
+				},
+				{
+					"name": "The Fullerton Hotel",
+					"location": {
+						"lat": 1.286353,
+						"lng": 103.853067
+					},
+					"label": "B",
+					"type": "sight",
+					"cost": "Free",
+					"time": "15 minutes",
+					"description": "",
+					"link": "https://www.fullertonhotels.com/the-fullerton-hotel",
+					"link_text": "The Fullerton Hotel",
+					"image": "images/fullerton_hotel.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "5 minute walk"
+				},
+				{
+					"name": "Merlion Park",
+					"location": {
+						"lat": 1.286789,
+						"lng": 103.854501
+					},
+					"label": "C",
+					"type": "sight",
+					"cost": "Free",
+					"time": "15 minutes",
+					"description": "",
+					"link": "http://www.visitsingapore.com/see-do-singapore/recreation-leisure/viewpoints/merlion-park/",
+					"link_text": "Website",
+					"image": "images/merlion_park.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "12 minute walk"
+				},
+				{
+					"name": "Lau Pa Sat",
+					"location": {
+						"lat": 1.280684,
+						"lng": 103.85044360000006
+					},
+					"label": "D",
+					"type": "food",
+					"cost": "$",
+					"description": "",
+					"link": "http://www.laupasat.biz/",
+					"link_text": "Website",
+					"image": "images/lau_pa_sat.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "21 minute walk"
+				},
+				{
+					"name": "Marina Bay Sands",
+					"location": {
+						"lat": 1.28315,
+						"lng": 103.86004389999994
+					},
+					"label": "E",
+					"type": "sight",
+					"cost": "Free",
+					"time": "30 minutes",
+					"description": "",
+					"link": "https://www.marinabaysands.com",
+					"link_text": "Website",
+					"image": "images/marina_bay_sands.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "3 minute walk"
+				},
+				{
+					"name": "ArtScience Museum",
+					"location": {
+						"lat": 1.286386,
+						"lng": 103.85944710000001
+					},
+					"label": "F",
+					"type": "sight",
+					"cost": "$28",
+					"time": "2 hours",
+					"description": "",
+					"link": "https://www.marinabaysands.com/museum/",
+					"link_text": "Website",
+					"image": "images/artscience_museum.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "9 minute walk"
+				},
+				{
+					"name": "Gardens by the Bay",
+					"location": {
+						"lat": 1.2815813333766721,
+						"lng": 103.86360883712769
+					},
+					"label": "G",
+					"type": "sight",
+					"cost": "$0 - $28",
+					"time": "2 hours",
+					"description": "",
+					"link": "http://www.gardensbythebay.com.sg",
+					"link_text": "Website",
+					"image": "images/gardens_by_the_bay.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "9 minute walk"
+				},
+				{
+					"name": "Din Tai Fung Marina Bay Sands",
+					"location": {
+						"lat": 1.285412,
+						"lng": 103.859559
+					},
+					"label": "H",
+					"type": "food",
+					"cost": "$$",
+					"description": "",
+					"link": "https://www.marinabaysands.com/restaurants/chinese/din-tai-fung.html",
+					"link_text": "Website",
+					"image": "images/din_tai_fung.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "11 minute walk"
+				},
+				{
+					"name": "Singapore Flyer",
+					"location": {
+						"lat": 1.2892987882700402,
+						"lng": 103.86313676834106
+					},
+					"label": "I",
+					"type": "sight",
+					"cost": "$33",
+					"time": "2 hours",
+					"description": "",
+					"link": "http://www.singaporeflyer.com",
+					"link_text": "Website",
+					"image": "images/singapore_flyer.jpg"
+				}
+			]
+		}
+	},
+	"map": {
+		"location": {
+			"lat": 1.352083,
+			"lng": 103.81983600000001
+		},
+		"zoom": 11,
+		"styles": [{"featureType": "administrative","elementType": "geometry","stylers": [{"visibility": "off"}]},{"featureType": "administrative.land_parcel","stylers": [{"visibility": "off"}]},{"featureType": "administrative.neighborhood","stylers": [{"visibility": "off"}]},{"featureType": "landscape","stylers": [{"color": "#874f33"}]},{"featureType": "landscape","elementType": "geometry","stylers": [{"color": "#ffd8ba"}]},{"featureType": "landscape","elementType": "labels","stylers": [{"color": "#ffffff"},{"visibility": "off"}]},{"featureType": "landscape","elementType": "labels.text.stroke","stylers": [{"color": "#000000"},{"weight": 1}]},{"featureType": "landscape.man_made","elementType": "geometry.fill","stylers": [{"color": "#ffbf91"}]},{"featureType": "poi","stylers": [{"visibility": "off"}]},{"featureType": "poi","elementType": "labels.text","stylers": [{"visibility": "off"}]},{"featureType": "road","elementType": "geometry.fill","stylers": [{"color": "#ffffff"},{"weight": 0.5}]},{"featureType": "road","elementType": "geometry.stroke","stylers": [{"color": "#ffffff"}]},{"featureType": "road","elementType": "labels","stylers": [{"visibility": "off"}]},{"featureType": "road","elementType": "labels.icon","stylers": [{"visibility": "off"}]},{"featureType": "road.highway","elementType": "labels.text.fill","stylers": [{"weight": 0.5}]},{"featureType": "transit","stylers": [{"visibility": "off"}]},{"featureType": "water","elementType": "geometry.fill","stylers": [{"color": "#b4d6fc"}]},{"featureType": "water","elementType": "geometry.stroke","stylers": [{"color": "#77c6ff"}]},{"featureType": "water","elementType": "labels.text","stylers": [{"visibility": "off"}]}]
+	},
+	"styles": {
+		"highlight": "#FFBF91"
+	}
+}

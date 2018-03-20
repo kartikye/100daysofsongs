@@ -1,6 +1,252 @@
 {
 	"location": "San Francisco",
 	"itineraries": {
+		"north":{
+			"name": "Presidio",
+			"itinerary": [
+				{
+					"name": "Sutro Baths",
+					"location": {
+						"lat": 37.7804369,
+						"lng": -122.51369349999999
+					},
+					"label": "A",
+					"type": "sight",
+					"time": "45 minutes",
+					"cost": "Free",
+					"description": "Ruins of a huge public bath house from 1896.",
+					"link": "https://www.nps.gov/goga/planyourvisit/cliff-house-sutro-baths.htm",
+					"link_text": "Website",
+					"image": "images/sutro_baths.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "25 minute walk"
+				},
+				{
+					"name": "Lands End Lookout and Labyrinth",
+					"location": {
+						"lat": 37.78801560000001,
+						"lng": -122.5058305
+					},
+					"label": "B",
+					"type": "sight",
+					"time": "15 minutes",
+					"cost": "Free",
+					"description": "Secluded area with a great view of the Golden Gate Bridge and an art piece by Eduardo Aguilera.",
+					"link": "https://www.atlasobscura.com/places/labyrinth-lands-end",
+					"link_text": "Atlas Obscura",
+					"image": "images/lands_end_labyrinth.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "15 minute walk"
+				},
+				{
+					"name": "Legion of Honor",
+					"location": {
+						"lat": 37.78502959999999,
+						"lng": -122.49940720000001
+					},
+					"label": "C",
+					"type": "sight",
+					"time": "2 hours",
+					"cost": "$15",
+					"description": "Part of the Fine Art Museums of San Francisco located in a dramatic building.",
+					"link": "www.legionofhonor.famsf.org",
+					"link_text": "Website",
+					"image": "images/legion_of_honor.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "17 minute walk"
+				},
+				{
+					"name": "Fiorella",
+					"location": {
+						"lat": 37.7818414,
+						"lng": -122.48452320000001
+					},
+					"label": "D",
+					"type": "food",
+					"cost": "$$",
+					"description": "Cozy Italian joint with pastas and wood-fired pizzas.",
+					"link": "http://www.fiorella-sf.com/",
+					"link_text": "Website",
+					"image": "images/fiorella.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "15 minute walk"
+				},
+				{
+					"name": "Baker Beach",
+					"location": {
+						"lat": 37.7935724,
+						"lng": -122.48363799999998
+					},
+					"label": "E",
+					"type": "sight",
+					"time": "30 minutes",
+					"cost": "free",
+					"description": "A rocky beach with an unsurpassed view of the Golden Gate Bridge and the Marin Headlands.",
+					"link": "http://www.parksconservancy.org/visit/park-sites/baker-beach.html",
+					"link_text": "Website",
+					"image": "images/baker_beach.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "23 minute walk"
+				},
+				{
+					"name": "Golden Gate Bridge",
+					"location": {
+						"lat": 37.8077489,
+						"lng": -122.47495200000003
+					},
+					"label": "F",
+					"type": "sight",
+					"time": "30 minutes",
+					"cost": "free",
+					"description": "Talk a walk or rent a bike to traverse across this beautiful bridge. You might see some whales!",
+					"link": "http://www.parksconservancy.org/visit/park-sites/golden-gate-bridge.html",
+					"link_text": "Website",
+					"image": "images/golden_gate_bridge.jpg"
+				},
+				{
+					"type": "drive",
+					"duration": "10 minute drive"
+				},
+				{
+					"name": "Wave Organ",
+					"location": {
+						"lat": 37.8085184,
+						"lng": -122.44022100000001
+					},
+					"label": "G",
+					"type": "sight",
+					"time": "30 minutes",
+					"cost": "free",
+					"description": "A wave activated acousitic sculpture in the San Francisco bay.",
+					"link": "https://www.exploratorium.edu/visit/wave-organ",
+					"link_text": "Website",
+					"image": "images/wave_organ.jpg"
+				}
+			]
+		},
+		"downtown": {
+			"name": "Downtown San Francisco",
+			"itinerary": [
+				{
+					"name": "Union Square",
+					"location": {
+						"lat": 37.7879938,
+						"lng": -122.40743739999999
+					},
+					"label": "A",
+					"type": "sight",
+					"cost": "Free",
+					"time": "30 minutes",
+					"description": "A great place to start a trip in SF, surrounded by department stores and hotels.",
+					"link": "",
+					"link_text": "",
+					"image": "images/union_square.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "5 minute walk"
+				},
+				{
+					"name": "Asha Tea House",
+					"location": {
+						"lat": 37.78818,
+						"lng": -122.40369599999997
+					},
+					"label": "B",
+					"type": "food",
+					"cost": "$",
+					"description": "A wonderful tea house with high quality drinks.",
+					"link": "https://www.ashateahouse.com/",
+					"link_text": "Website",
+					"image": "images/asha.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "5 minute walk"
+				},
+				{
+					"name": "SF Museum of Modern Art",
+					"location": {
+						"lat": 37.7857182,
+						"lng": -122.40105080000001
+					},
+					"label": "C",
+					"type": "sight",
+					"cost": "$25",
+					"time": "2 - 3 hours",
+					"description": "A modern art museum with a beautiful collection.",
+					"link": "Website",
+					"link_text": "https://www.sfmoma.org/",
+					"image": "images/sfmoma.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "2 minute walk"
+				},
+				{
+					"name": "Samovar Tea Lounge",
+					"location": {
+						"lat": 37.78417,
+						"lng": -122.40210139999999
+					},
+					"label": "D",
+					"type": "food",
+					"cost": "$$",
+					"description": "A large selection of tasty food paired with tea.",
+					"link": "https://www.samovartea.com/yerba-buena-gardens/",
+					"link_text": "Website",
+					"image": "images/samovar.jpg"
+				},
+				{
+					"type": "train",
+					"duration": "17 minute train ride"
+				},
+				{
+					"name": "San Francisco Ferry Building",
+					"location": {
+						"lat": 37.7955169,
+						"lng": -122.39347279999998
+					},
+					"label": "E",
+					"type": "sight",
+					"cost": "free",
+					"time": "30 minutes",
+					"description": "A historic ferry terminal with a variety of artisanal shops are restaurants.",
+					"link": "Website",
+					"link_text": "https://www.ferrybuildingmarketplace.com/",
+					"image": "images/ferry_building.jpg"
+				},
+				{
+					"type": "walk",
+					"duration": "9 minute walk"
+				},
+				{
+					"name": "Exploratorium",
+					"location": {
+						"lat": 37.801542,
+						"lng": -122.39748400000002
+					},
+					"label": "F",
+					"type": "sight",
+					"cost": "free",
+					"time": "2 hours",
+					"description": "A museum with hundreds of wonderful interactive exhibits for both adults and kids/",
+					"link": "Website",
+					"link_text": "www.exploratorium.edu",
+					"image": "images/exploratorium.jpg"
+				}
+			]
+		},
 		"mission": {
 			"name": "The Mission District",
 			"itinerary": [
@@ -102,7 +348,7 @@
 						"lat": 37.7544066,
 						"lng": -122.44768449999998
 					},
-					"label": "C",
+					"label": "G",
 					"type": "sight",
 					"cost": "Free",
 					"time": "30 minutes",
@@ -113,6 +359,9 @@
 				}
 			]
 		}
+	},
+	"styles":{
+		"highlight": "#ff766d"
 	},
 	"map": {
 		"location": {

@@ -1,0 +1,51 @@
+{
+	"location": "",
+	"itineraries": {
+		"mission": {
+			"name": "",
+			"itinerary": [
+				{
+					"name": "",
+					"location": {
+						"lat": ,
+						"lng": 
+					},
+					"label": "",
+					"type": "",
+					"cost": "",
+					"time": "",
+					"description": "",
+					"link": "",
+					"link_text": "",
+					"image": ""
+				},
+				{
+					"type": "",
+					"duration": ""
+				},
+				{
+					"name": "",
+					"location": {
+						"lat": ,
+						"lng": 
+					},
+					"label": "",
+					"type": "",
+					"cost": "",
+					"description": "",
+					"link": "",
+					"link_text": "",
+					"image": ""
+				},
+			]
+		}
+	},
+	"map": {
+		"location": {
+			"lat": ,
+			"lng": 
+		},
+		"zoom": ,
+		"styles": 
+	}
+}

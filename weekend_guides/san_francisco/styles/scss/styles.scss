@@ -6,10 +6,19 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
 $sfred: #ff7665;
+$orange: #fcc999;
 
 section{
 	padding: 0;
 	margin: 0;
+	max-width: 1000px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+h2{
+	color:  $orange;
+	text-transform: uppercase;
 }
 
 h3{
@@ -57,9 +66,6 @@ header{
 
 #second{
 	background-color: $sfred;
-	position: relative;
-	height: 33vw;
-	display: flex;
 	justify-content: center;
 	padding-bottom: 3vw;
 
@@ -75,7 +81,8 @@ header{
 
 	img{
 		width: 100%;
-		margin-top: -6vw;
+		margin-top: -3vw;
+		height: auto;
 	}
 }
 
@@ -102,7 +109,7 @@ header{
 			display: flex;
 			justify-content: center;
 
-			background-color: #fcc999;
+			background-color: $orange;
 
 			p{
 				width: 320px;
@@ -118,201 +125,108 @@ header{
 	}
 }
 
-#fourth{
-	height: 500px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
+.section-title{
+	
+	font-family: Proxima_Nova;
 
-	div{
-		img, svg{
-			width: 130px;
-		}
 
-		&:nth-of-type(2){
-			margin:0 20px 0 20px;
-		}
+	h1{
+		color: white;		
+		font-weight: 700;
+		font-size: 40px;
+		margin: 0;
+		color: white;
+		text-transform: capitalize;
+		background-color: $sfred;
+		padding: 30px 90px 30px 90px;
+	}
 
-		p{
-			text-align: center;
-			font-family: Proxima_Nova;
+	p,ul{
+		font-size: 20px;
+		margin: 0; 
+		line-height: 26px;
+		font-weight: 200;
+		list-style-type: none;
+	}
+
+	li{
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+		strong{
+			font-style: none;
 			font-weight: 700;
-			font-size: 16px;
-			margin-top: 10px;
 			color: $sfred;
-			text-transform: uppercase;
+		}
+	}
+
+	p{
+		padding: 30px 90px 0 90px;
+	}
+
+	ul{
+		padding: 0 90px 30px 120px;
+	}
+
+	#map{
+		width: 100%;
+		height: 50vh;
+		margin-bottom: 40px;
+	}
+}
+
+#map_section{
+	position: sticky;
+	top: 0; 
+}
+
+
+#fifth{
+	#itinerary-img{
+		width: 100%;
+		height: 200px;
+		background-image: url(../images/itineraries.png);
+		background-position: center;
+	}
+
+	#itineraries{
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		text-decoration: none;
+
+		a{
 			text-decoration: none;
 
-		}
-	}
+			&:hover{
+				color: $sfred !important;
+			}
 
-	a{
-		text-decoration: none;
-		&:hover{
-			div{p{color: black;}}
-		}
-	}
-}
+			.itinerary{
+				width: 300px;
+				margin: 20px 0 20px 0;
 
-
-.section-title{
-	padding-left: 6vw;
-	font-family: Proxima_Nova;
-	font-weight: 700;
-	font-size: 40px;
-	color: $sfred;
-	text-transform: uppercase;
-}
-
-
-#food{
-	width: 94vw;
-	margin: 0 3vw 0 3vw;
-
-	.col-md-6{
-		min-height: 60vh;
-		&:first-of-type{
-			display: flex;
-			align-items: center;
-			.restaurant{
-				font-family: Proxima_Nova;
-				margin: 30px 0 30px 0;
-				padding-left: 6vw;
-				h3{
-					font-weight: 600;
-					margin: 0;
-					padding: 0;
-					font-size: 24px;
+				img{
+					width: 300px;
+					height: 300px;
+					object-fit: cover;
 				}
-				p{
-					font-size: 16px;
-					font-weight: 400;
-					margin: 5px 0 0 0;
-					padding: 0;
-					font-style: italic;
+
+				h2{
+					text-align: center;
+					text-decoration: underline;
+					&:hover{
+						color: $sfred !important;
+					}	
 				}
+
 			}
 		}
-
-		&:last-of-type{
-			background: url(../images/food.jpg);
-			background-size: cover;
-			background-position: center;
-		}
 	}
 }
 
-#sights{
-	width: 94vw;
-	margin: 0 3vw 0 3vw;
-
-	.col-md-6{
-		min-height: 60vh;
-		
-		&:last-of-type{
-			display: flex;
-			align-items: center;
-			h1{
-				padding-left: 6vw;
-			}
-			.sight{
-				font-family: Proxima_Nova;
-				margin: 30px 0 30px 0;
-				padding-left: 6vw;
-				h3{
-					font-weight: 600;
-					margin: 0;
-					padding: 0;
-					font-size: 24px;
-				}
-				p{
-					font-size: 16px;
-					font-weight: 400;
-					margin: 5px 0 0 0;
-					padding: 0;
-					font-style: italic;
-				}
-			}
-		}
-
-		&:first-of-type{
-			background: url(../images/sights.jpg);
-			background-size: cover;
-			background-position: center;
-		}
-	}
-}
-
-#nightlife{
-	width: 94vw;
-	margin: 0 3vw 0 3vw;
-
-	.col-md-6{
-		min-height: 60vh;
-		&:first-of-type{
-			display: flex;
-			align-items: center;
-			.restaurant{
-				font-family: Proxima_Nova;
-				margin: 30px 0 30px 0;
-				padding-left: 6vw;
-				h3{
-					font-weight: 600;
-					margin: 0;
-					padding: 0;
-					font-size: 24px;
-				}
-				p{
-					font-size: 16px;
-					font-weight: 400;
-					margin: 5px 0 0 0;
-					padding: 0;
-					font-style: italic;
-
-					span{
-						font-style: normal;
-					}
-				}
-			}
-		}
-
-		&:last-of-type{
-			background: url(../images/nightlife.jpg);
-			background-size: cover;
-			background-position: center;
-		}
-	}
-}
-
-#itinerary{
-	background-color: $sfred;
-	padding: 60px 0 60px 0;
-
-	.title{
-		&:first-of-type{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			flex-direction: row;
-		}
-	}
-
-	img, svg{
-		width: 130px;
-	}
-	.section-title{
-		color: white;
-		padding-left: 1vw;
-	}
-
-	hr{
-		width: 30%;
-		border: 1px solid white;
-		box-shadow: none;
-		margin-top: 20px;
-	}
-}
 
 #image_credits{
 	margin: 0 3vw 0 3vw;

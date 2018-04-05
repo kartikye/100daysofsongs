@@ -2236,6 +2236,9 @@ button[data-balloon] {
   src: url(../assets/fonts/proxima_nova/ProximaNova-SemiboldIt.otf);
   font-weight: 600;
   font-style: italic; }
+* {
+  font-family: Proxima_Nova; }
+
 section {
   padding: 0;
   margin: 0;
@@ -2251,7 +2254,7 @@ h3 a {
   text-decoration: none;
   color: #444; }
   h3 a:hover {
-    color: #FFBF91; }
+    color: #7accc8; }
 
 header {
   text-align: center;
@@ -2264,26 +2267,85 @@ header {
   height: auto;
   width: 94vw;
   margin: 3vw 3vw 0 3vw; }
-  #first img {
+  #first #map {
     width: 100%;
-    height: auto;
-    display: block; }
+    height: 60vh; }
 
 #second {
-  background-color: #ffbdc9;
-  text-align: center; }
-  #second p {
-    font-family: Proxima_Nova;
-    font-weight: 600;
-    font-style: italic;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin: 0;
-    padding: 35px; }
+  text-align: center;
+  height: 60px; }
 
 #third {
   width: 94vw;
   margin: 0 3vw 0 3vw; }
+  #third h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px; }
+  #third #places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+    #third #places a {
+      width: 100%;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px; }
+      #third #places a:hover {
+        color: black; }
+      #third #places a .city {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        #third #places a .city .image {
+          width: 200px;
+          height: 200px;
+          background-size: cover;
+          background-position: center;
+          display: inline-block;
+          position: relative; }
+        #third #places a .city h3 {
+          padding: 20px;
+          height: 200px;
+          font-size: 24px;
+          display: inline-block;
+          margin: 0;
+          background: #7accc8;
+          flex: 1;
+          margin-right: 20px; }
+  #third #itineraries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0; }
+    #third #itineraries a {
+      color: white;
+      text-decoration: none;
+      margin: 0;
+      margin-bottom: 20px;
+      width: 100%; }
+      #third #itineraries a:hover {
+        color: black; }
+      #third #itineraries a .itinerary {
+        width: 100%;
+        background-color: #cc7a7e;
+        display: flex;
+        height: 63px;
+        flex-direction: row;
+        justify-content: space-between; }
+        #third #itineraries a .itinerary h3 {
+          font-size: 20px;
+          padding: 20px;
+          margin: 0;
+          margin-left: 20px; }
+        #third #itineraries a .itinerary .image {
+          width: 63px;
+          height: 63px;
+          background-size: cover;
+          background-position: center; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,54 @@
+{
+	"cities": [
+		{
+			"name": "Barcelona",
+			"folder": "barcelona",
+			"location": {
+				"lat": 41.38506389999999,
+				"lng": 2.1734034999999494
+			},
+			"itineraries": [
+			]
+		},
+		{
+			"name": "San Francisco",
+			"folder": "san_francisco",
+			"location": {
+				"lat": 37.7749295,
+				"lng": -122.41941550000001
+			},
+			"itineraries": [
+				{
+					"id": "north",
+					"name": "Presidio"
+				},
+				{
+					"id": "mission",
+					"name": "The Mission District"
+				},
+				{
+					"id": "downtown",
+					"name": "Downtown San Francisco"
+				}
+			]
+		},
+		{
+			"name": "Singapore",
+			"folder": "singapore",
+			"location": {
+				"lat": 1.352083,
+				"lng": 103.81983600000001
+			},
+			"itineraries": [
+				{
+					"id": "sentosa",
+					"name": "Sentosa"
+				},
+				{
+					"id": "marina_bay",
+					"name": "Marina Bay"
+				}
+			]
+		}
+	]
+}

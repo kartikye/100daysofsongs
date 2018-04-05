@@ -91,3 +91,18 @@ $(window).on('scroll', function() {
 		$('#map_section').css({top: stop_top - window_top + 'px'});
 	}
 });
+
+$('<br><a href="javascript:void(0);" class="show-more">Information</a>').insertBefore('address')
+$('address').append('<br><a href="javascript:void(0);" class="show-less">Hide</a>')
+$('address').hide()
+
+$('.show-more').on('click', function(){
+	 var $this = $(this)
+	 $(this).hide()
+	 $this.next().show()
+})
+
+$('.show-less').on('click', function(){
+	$(this).parent().hide()
+	$(this).parent().prev().show()
+})

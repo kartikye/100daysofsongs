@@ -158,6 +158,32 @@ header{
 			font-weight: 700;
 			color: $sfred;
 		}
+
+		.show-more, .show-less{
+			font-size: 14px;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: $sfred;
+			font-weight: 600;
+
+			&:hover{
+				color: #444;
+			}
+		}
+
+		.show-less{
+			color: #444;
+			&:hover{
+				color: $sfred;
+			}
+		}
+
+		address{
+			font-style: normal;
+			font-size: 14px;
+			line-height: 19px;
+			margin: 10px 0 0 15px;
+		}
 	}
 
 	p{

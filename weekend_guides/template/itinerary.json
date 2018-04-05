@@ -1,8 +1,9 @@
 {
 	"location": "",
 	"itineraries": {
-		"mission": {
+		"ITINERARYNAME": {
 			"name": "",
+			"zoom": "",
 			"itinerary": [
 				{
 					"name": "",
@@ -47,5 +48,9 @@
 		},
 		"zoom": ,
 		"styles": 
+	},
+	"styles": {
+		"highlight": "",
+		"lowlight": ""
 	}
 }

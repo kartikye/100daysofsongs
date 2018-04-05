@@ -2338,6 +2338,23 @@ header {
       font-style: none;
       font-weight: 700;
       color: #ff7665; }
+    .section-title li .show-more, .section-title li .show-less {
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ff7665;
+      font-weight: 600; }
+      .section-title li .show-more:hover, .section-title li .show-less:hover {
+        color: #444; }
+    .section-title li .show-less {
+      color: #444; }
+      .section-title li .show-less:hover {
+        color: #ff7665; }
+    .section-title li address {
+      font-style: normal;
+      font-size: 14px;
+      line-height: 19px;
+      margin: 10px 0 0 15px; }
   .section-title p {
     padding: 30px 90px 0 90px; }
   .section-title ul {

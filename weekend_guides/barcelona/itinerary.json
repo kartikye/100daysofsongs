@@ -1,0 +1,56 @@
+{
+	"location": "Barcelona",
+	"itineraries": {
+		"XXXXX": {
+			"name": "",
+			"zoom": "",
+			"itinerary": [
+				{
+					"name": "",
+					"location": {
+						"lat": ,
+						"lng": 
+					},
+					"label": "",
+					"type": "",
+					"cost": "",
+					"time": "",
+					"description": "",
+					"link": "",
+					"link_text": "",
+					"image": ""
+				},
+				{
+					"type": "",
+					"duration": ""
+				},
+				{
+					"name": "",
+					"location": {
+						"lat": ,
+						"lng": 
+					},
+					"label": "",
+					"type": "",
+					"cost": "",
+					"description": "",
+					"link": "",
+					"link_text": "",
+					"image": ""
+				},
+			]
+		}
+	},
+	"map": {
+		"location": {
+			"lat": 41.38506389999999,
+			"lng": 2.1734034999999494
+		},
+		"zoom": 13,
+		"styles": [{"featureType": "administrative","elementType": "geometry","stylers": [{"visibility": "off"}]},{"featureType": "administrative.land_parcel","stylers": [{"visibility": "off"}]},{"featureType": "administrative.land_parcel","elementType": "labels","stylers": [{"visibility": "off"}]},{"featureType": "administrative.locality","elementType": "labels","stylers": [{"visibility": "on"}]},{"featureType": "administrative.neighborhood","stylers": [{"visibility": "off"}]},{"featureType": "administrative.neighborhood","elementType": "labels","stylers": [{"visibility": "off"}]},{"featureType": "landscape","elementType": "geometry","stylers": [{"color": "#6be597"}]},{"featureType": "landscape.man_made","elementType": "geometry.fill","stylers": [{"color": "#6be597"}]},{"featureType": "poi","stylers": [{"visibility": "off"}]},{"featureType": "poi","elementType": "geometry.fill","stylers": [{"color": "#ffeb3b"},{"visibility": "off"}]},{"featureType": "poi","elementType": "labels.text","stylers": [{"visibility": "off"}]},{"featureType": "road","elementType": "geometry","stylers": [{"color": "#ffffff"}]},{"featureType": "road","elementType": "labels","stylers": [{"visibility": "off"}]},{"featureType": "road","elementType": "labels.icon","stylers": [{"visibility": "off"}]},{"featureType": "transit","stylers": [{"visibility": "off"}]},{"featureType": "water","stylers": [{"color": "#c1f4f0"}]},{"featureType": "water","elementType": "labels.text","stylers": [{"visibility": "off"}]}]
+	},
+	"styles": {
+		"highlight": "",
+		"lowlight": ""
+	}
+}

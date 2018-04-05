@@ -5,8 +5,12 @@
 @import 'fonts';
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
-$highlight: #FFBF91;
+$highlight: #7accc8;
 $lowlight: #ffbdc9;
+
+*{
+	font-family: Proxima_Nova;
+}
 
 section{
 	padding: 0;
@@ -52,39 +56,115 @@ header{
 	width: 94vw;
 	margin: 3vw 3vw 0 3vw;
 
-	img{
-		width: 100%;
-		height: auto;
-		display: block;
+	#map{
+		width:100%;
+		height: 60vh;
 	}
 }
 
 #second{
-	background-color: $lowlight;
 	text-align: center;
-
-	p{
-		font-family: Proxima_Nova;
-		font-weight: 600;
-		font-style: italic;
-		color: white;
-		font-size: 25px;
-		text-align: center;
-		margin: 0;
-		padding: 35px;
-	}
+	height: 60px;
 }
 
 #third{
 	width: 94vw;
 	margin: 0 3vw 0 3vw;
 
-	#places{
+	h2{
+		padding: 0;
+		margin: 0;
+		margin-bottom: 40px;
+	}
 
+	#places{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+
+		a{
+			width:100%;
+			color: white;
+			text-decoration: none;
+			margin-bottom: 20px;
+
+			&:hover{
+				color: black;
+			}
+
+			.city{
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+
+				.image{
+					width: 200px;
+					height: 200px;
+					background-size: cover;
+					background-position: center;
+					display:inline-block;
+					position: relative;
+				}
+
+				h3{
+					padding: 20px;
+					height: 200px;
+					font-size: 24px;
+					display: inline-block;
+					margin: 0;
+					background: $highlight;
+					flex: 1;
+					margin-right: 20px;
+				}
+			}
+		}
 	}
 
 	#itineraries{
-		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+
+		a{
+			color: white;
+			text-decoration: none;
+			margin: 0;
+			margin-bottom: 20px;
+			width: 100%;
+
+			&:hover{
+				color: black;
+			}
+
+			.itinerary{
+				width: 100%;
+				background-color: #cc7a7e;
+				display: flex;
+				height: 63px;
+				flex-direction: row;
+				justify-content: space-between;
+
+				h3{
+					font-size: 20px;
+					padding: 20px;
+					margin: 0;
+					margin-left: 20px;
+				}
+
+				.image{
+					width: 63px;
+					height: 63px;
+
+					background-size: cover;
+					background-position: center;
+				}
+			}
+		}
 	}
 }
 
